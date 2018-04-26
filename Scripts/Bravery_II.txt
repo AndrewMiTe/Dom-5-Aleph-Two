@@ -1,0 +1,20 @@
+-- Bravery II: <Commander Name or ID>
+#newmonster wounded_form
+  #copystats bravery_unit
+  #copyspr bravery_unit
+  #str stat_minus_2
+  #att stat_minus_2
+  #def stat_minus_2
+  #mr  stat_minus_2
+  #mor stat_minus_5
+#end
+#selectmonster bravery_unit
+  #hp  1
+  #str stat_plus_3
+  #att stat_plus_3
+  #def stat_plus_3
+  #mr  stat_plus_3
+  #ap  stat_plus_3
+  #woundfend 10
+  #secondshape wounded_form
+#end
