@@ -1,0 +1,11 @@
+-- Doomed
+#newevent
+  #rarity 5
+  #req_fornation nation_id
+  #req_pop0ok
+  #nation -2
+  #req_targgod 1
+  #gainmark
+  #notext
+  #nolog
+#end
