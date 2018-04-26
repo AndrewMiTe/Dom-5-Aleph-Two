@@ -1,0 +1,39 @@
+-- Elemental Half-Blood: Air <First Commander> <Second Commander> <Third Commander>
+#newmonster first_air_elemental_id
+  #copyspr 570
+  #copystats 572
+  #hp 8
+  #size 3
+  #mr 15
+  #str 9
+  #att 13
+  #def 13
+  #ap 24
+  #maxage 1200
+  #itemslots 12288
+  #stormpower 3
+  #trample
+  #firstshape first_commander_id
+#end
+#selectmonster first_commander_id
+  #shockres 5
+  #secondshape first_air_elemental_id
+#end
+#newmonster second_air_elemental_id
+  #copystats first_air_elemental_id
+  #copyspr first_air_elemental_id
+  #firstshape second_commander
+#end
+#selectmonster second_commander
+  #shockres 5
+  #secondshape second_air_elemental_id
+#end
+#newmonster third_air_elemental_id
+  #copystats first_air_elemental_id
+  #copyspr first_air_elemental_id
+  #firstshape third_commander
+#end
+#selectmonster third_commander
+  #shockres 5
+  #secondshape third_air_elemental_id
+#end

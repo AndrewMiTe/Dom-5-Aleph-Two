@@ -1,0 +1,29 @@
+-- Mana-Tap: <Nation with Magic Up>
+#newevent
+  #rarity 0
+  #req_fornation magic_up_nation
+  #req_pop0ok
+  #req_lab 1
+  #notext
+  #nolog
+  #decscale 5
+#end
+#newevent
+  #rarity 0
+  #req_fornation magic_up_nation
+  #req_pop0ok
+  #req_lab 0
+  #req_rare 75
+  #notext
+  #nolog
+  #incscale 5
+#end
+#newevent
+  #rarity 0
+  #req_fornation magic_down_nation
+  #req_pop0ok
+  #req_rare 75
+  #notext
+  #nolog
+  #incscale 5
+#end

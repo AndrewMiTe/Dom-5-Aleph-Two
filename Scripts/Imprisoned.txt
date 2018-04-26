@@ -1,0 +1,22 @@
+-- Place the Eater of Gods script in the beginning of the Aleph mod. Place the imprisoned
+-- script in each nation's section with imprisoned.
+
+-- Eater of Gods
+#newmonster new_monster_id
+  #copystats 1148
+  #copyspr 1148
+#end
+
+-- Imprisoned
+#newevent
+  #rarity 5
+  #req_fornation imprisoned_nation_id
+  #req_pop0ok
+  #nation -2
+  #req_targgod 1
+  #req_mydominion 0
+  #assassin new_monster_id
+  #msg "You were attacked for going outside your dominion. The God Killer is always waiting."
+  #notext
+  #nolog
+#end
