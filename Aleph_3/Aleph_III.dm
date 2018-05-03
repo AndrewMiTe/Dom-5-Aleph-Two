@@ -13017,26 +13017,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #nolog
 #end
 
--- Sage for Turbo Research I
-#newmonster 5670
-  #copystats 478
-  #copyspr 478
-  #clearmagic
-  #fixedresearch 150
-#end
-#newevent
-  #rarity 5
-  #nation -2
-  #req_turn 13
-  #req_maxturn 18
-  #req_pop0ok
-  #req_monster 5670
-  #killcom 5670
-  #msg "The blessings of the previous pantokrator have collapsed."
-  #nolog
-#end
-
--- Eater of Gods
+-- Eater of Gods for Imprisoned
 #newmonster 5671
   #copystats 1148
   #copyspr 1148
@@ -13052,9 +13033,8 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #descr "3hp Cost Reducer: Revive Dusk Elder
           4hp Gem Production I: Death
           2hp Sacred Resistance II: Fire Shock  
-          3hp Turbo Researcher I
           3hp Magic Pact: Lizard King
-          3hp Elemental Blood I: Air Dusk Elders Spectators Arch Bishops
+          6hp Elemental Full-Blood: Air Dusk Elders Spectators
           2hp Awaken Heroes: Putrescator
           1hp Life Drain: C'tis
           1hp Gem Whore-der: Ermor
@@ -13095,20 +13075,6 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 #selectnation 44
   #startsite "Ermor's Boon"
-#end
-
--- Turbo Researcher I
-#newevent
-  #rarity 5
-  #nation -2
-  #req_fornation 44
-  #req_maxturn 11
-  #req_capital 1
-  #req_unique 1
-  #req_pop0ok
-  #com 5670
-  #msg "A grand sage desires the use of your labratory in exchange for what he knows."
-  #nolog
 #end
 
 -- Gem Whore-der: Ermor
@@ -13156,56 +13122,40 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #addreccom 5675
 #end
 
--- Elemental Blood I: Air Dusk Elders Spectators Arch Bishops
-#newmonster 5676 -- EB1 Air Dusk Elder Second Shape / Basic Air Elemental
-  #copyspr 570
+-- Elemental Full-Blood: Air Dusk Elders Spectators
+#newmonster 5676 -- Size 1 Air Elemental
+  #copyspr 572
   #copystats 572
-  #hp 8
-  #size 3
-  #mr 15
-  #str 9
-  #att 13
-  #def 13
-  #ap 24
-  #maxage 1200
   #itemslots 12288
-  #stormpower 3
-  #trample
-  #firstshape 253
+  #magicboost 1 1
 #end
-#selectmonster 253 -- EB1 Air Dusk Elder First Shape
-  #shockres 5
+#newmonster 5677 -- Size 2 Air Elemental
+  #copyspr 571
+  #copystats 571
+  #maxage 800
+  #itemslots 12288
+  #magicboost 1 1
   #secondshape 5676
 #end
-#newmonster 5677 -- EB1 Air Spectator Second Shape
-  #copystats 5676
-  #copyspr 5676
-  #firstshape 254
-#end
-#selectmonster 254 -- EB1 Air Spectator First Shape
-  #shockres 5
+#newmonster 5678 -- Size 3 Air Elemental
+  #copyspr 570
+  #copystats 570
+  #itemslots 12288
+  #magicboost 1 1
   #secondshape 5677
 #end
-#newmonster 5678 -- EB1 Air Arch Bishop Second Shape
-  #copystats 5676
-  #copyspr 5676
-  #firstshape 258
+#selectmonster 253 -- Dusk Elder
+  #shockres 10
+  #shapechange 5678
+  #secondshape 5678
 #end
-#selectmonster 258 -- EB1 Air Arch Bishop First Shape
-  #shockres 5
+#selectmonster 254 -- Spectator
+  #shockres 10
+  #shapechange 5678
   #secondshape 5678
 #end
 
 -- Life Drain: C'tis
-#newevent
-  #rarity 0
-  #req_fornation 44
-  #req_pop0ok
-  #req_rare 50
-  #notext
-  #nolog
-  #incscale 3
-#end
 #newevent
   #rarity 0
   #req_fornation 57
@@ -13214,6 +13164,15 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #notext
   #nolog
   #decscale 3
+#end
+#newevent
+  #rarity 0
+  #req_fornation 44
+  #req_pop0ok
+  #req_rare 50
+  #notext
+  #nolog
+  #incscale 3
 #end
 
 -- Obtuse: Labs cost 250 gold more
