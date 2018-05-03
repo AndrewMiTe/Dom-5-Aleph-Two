@@ -1,0 +1,33 @@
+-- Elemental Full-Blood: Air <First Commander> <Second Commander>
+#newmonster size_1_air_elemental_id
+  #copyspr 572
+  #copystats 572
+  #itemslots 12288
+  #magicboost 1 1
+#end
+#newmonster size_2_air_elemental_id
+  #copyspr 571
+  #copystats 571
+  #maxage 800
+  #itemslots 12288
+  #magicboost 1 1
+  #secondshape size_1_air_elemental_id
+#end
+#newmonster size_3_air_elemental_id
+  #copyspr 570
+  #copystats 570
+  #itemslots 12288
+  #magicboost 1 1
+  #secondshape size_2_air_elemental_id
+#end
+#selectmonster first_commander_id
+  #shockres 10
+  #shapechange size_3_air_elemental_id
+  #secondshape size_3_air_elemental_id
+#end
+#selectmonster second_commander_id
+  #shockres 10
+  #shapechange size_3_air_elemental_id
+  #secondshape size_3_air_elemental_id
+#end
+
