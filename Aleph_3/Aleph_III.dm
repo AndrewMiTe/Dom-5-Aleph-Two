@@ -13023,6 +13023,29 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #copyspr 1148
 #end
 
+-- Air Elementals for Elemental Full-Blood
+#newmonster 5676 -- Size 1 Air Elemental
+  #copyspr 572
+  #copystats 572
+  #itemslots 12288
+  #magicboost 1 1
+#end
+#newmonster 5677 -- Size 2 Air Elemental
+  #copyspr 571
+  #copystats 571
+  #maxage 800
+  #itemslots 12288
+  #magicboost 1 1
+  #secondshape 5676
+#end
+#newmonster 5678 -- Size 3 Air Elemental
+  #copyspr 570
+  #copystats 570
+  #itemslots 12288
+  #magicboost 1 1
+  #secondshape 5677
+#end
+
 -- [[MA Ermor Sub-Block]]
 
 -- Reactivate Nation
@@ -13123,27 +13146,6 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Elemental Full-Blood: Air Dusk Elders Spectators
-#newmonster 5676 -- Size 1 Air Elemental
-  #copyspr 572
-  #copystats 572
-  #itemslots 12288
-  #magicboost 1 1
-#end
-#newmonster 5677 -- Size 2 Air Elemental
-  #copyspr 571
-  #copystats 571
-  #maxage 800
-  #itemslots 12288
-  #magicboost 1 1
-  #secondshape 5676
-#end
-#newmonster 5678 -- Size 3 Air Elemental
-  #copyspr 570
-  #copystats 570
-  #itemslots 12288
-  #magicboost 1 1
-  #secondshape 5677
-#end
 #selectmonster 253 -- Dusk Elder
   #shockres 10
   #shapechange 5678

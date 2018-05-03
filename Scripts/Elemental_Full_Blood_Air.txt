@@ -1,4 +1,7 @@
--- Elemental Full-Blood: Air <First Commander> <Second Commander>
+-- Place the first script in the beginning of the Aleph mod. Place the second script in
+-- each nation's section with this mod.
+
+-- Air Elementals for Elemental Full-Blood
 #newmonster size_1_air_elemental_id
   #copyspr 572
   #copystats 572
@@ -20,6 +23,8 @@
   #magicboost 1 1
   #secondshape size_2_air_elemental_id
 #end
+
+-- Elemental Full-Blood: Air <First Commander> <Second Commander>
 #selectmonster first_commander_id
   #shockres 10
   #shapechange size_3_air_elemental_id
@@ -30,4 +35,3 @@
   #shapechange size_3_air_elemental_id
   #secondshape size_3_air_elemental_id
 #end
-
