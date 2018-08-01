@@ -15041,7 +15041,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #era 2
   #epithet "The Lizard Kings of Last"
   #descr "3 Cost Reducer: Revive Dusk Elder
-          2 Power Focus I: Dusk Elder 25% EASB
+          2 Power Focus I: Dusk Elder 25% ES
           2 Item Research: Skull Mentors
           7 Sacred Buff II: Attack  
           3 Magic Pact: Lizard King
@@ -15073,9 +15073,9 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #fatiguecost 1600
 #end
 
--- Power Focus I: Dusk Elder 25% EASB
+-- Power Focus I: Dusk Elder 25% ES
 #selectmonster 253
-  #custommagic 19712 25
+  #custommagic 3072 25
   #researchbonus -1
 #end
 
