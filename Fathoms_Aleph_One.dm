@@ -13581,6 +13581,64 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #magicboost 7 1
 #end
 
+-- Double Speed: Assassin (for Pythium)
+#selectmonster 5683 
+  #copystats 428
+  #copyspr 428
+#end
+
+-- Bravery II: Gladiator (for Pythium)
+#newmonster 5684
+  #copystats 12
+  #copyspr 12
+  #str 10
+  #att 9
+  #def 11
+  #mr  8
+  #mor 9
+#end
+
+-- Bravery I: Triarius (for Pythium)
+#newmonster 5685
+  #copystats 688
+  #copyspr 688
+  #str 8
+  #att 10
+  #def 10
+  #mr  8
+  #mor 8
+  #firstshape 688
+#end
+
+-- Economic Pretender: Angelic Lord (for Pythium)
+-- Strange Body: Arm Arm Angelic Lord
+-- Pretender Power: Fear
+#newmonster 5686
+  #copystats 5054
+  #copyspr 5054
+  #homerealm 0
+  #gcost 236
+  #itemslots 15518
+  #fear 5
+#end
+
+-- Item Find I: 1 Winged Helmet; 1 Thistle Mace (for Pythium)
+#newmonster 5687
+  #copystats 7
+  #copyspr 7
+  #startitem 180
+#end
+#newmonster 5688
+  #copystats 7
+  #copyspr 7
+  #startitem 55
+#end
+#newmonster 5689
+  #copystats 7
+  #copyspr 7
+  #startitem 211
+#end
+
 -- [[New Weapons Sub-Block]] {1725}
 
 #newweapon 1725
@@ -13620,6 +13678,239 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #killcom 5669
   #msg "The blessings of the previous pantokrator have collapsed."
   #nolog
+#end
+
+-- [[MA Pythium Sub-Block]]
+
+#selectnation 46
+  #name "MA Pythium"
+  #era 2
+  #epithet "Xma's Land of the Brave"
+  #descr "1 Double Speed: Assassin
+          2 Bravery II: Gladiator
+          4 Bravery I: Triarius
+          2 Forever Young: Arch Theurgs; Theurgs; Triarius
+          2 Double Cast: Mind Burn
+          2 Double Cast: Astral Fires
+          3 Turbo Researcher I
+          2 Awaken Heroes: Nikolaos
+          1 Hero Boost: Earth Magic Boost Nikolaos; Faster Casting Nikolaos
+          8 Power Focus IV: Theurg Acolytes 100% S
+          2 Power Focus I: Archtheurgs 55% F
+          1 Adaptive: Heat
+          1 Economic Pretender: Angelic Lord
+          1 Strange Body: Arm Arm Angelic Lord
+          2 Pretender Power: Fear Angelic Lord
+          3 Item Find I: 1 Winged Helmet; 1 Thistle Mace; 1 Kithaironic Lion Pelt
+          1 Exemplimary Designers
+         -3 Inept Masons
+         -3 Weak Faith"
+  #brief "Pythium is a splinter empire that broke free from Ermor when it fell. Pythium uses legionnaires, but also has Serpant Cataphracts and Hydras. The Theurgs of Pythium are powerful priests and Astral mages. Pythium uses Theurgical communion to empower their mages in battles."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 46
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Double Speed: Assassin
+#selectmonster 428
+  #gcost 120
+#end
+#newevent
+  #rarity 5
+  #req_targmnr 428
+  #notext
+  #nation 46
+  #2com 5683
+  #killcom 428
+  #nolog
+#end
+#newevent
+  #rarity 5
+  #req_targmnr 428
+  #notext
+  #nation 46
+  #2com 5683
+  #killcom 428
+  #nolog
+#end
+
+-- Bravery II: Gladiator
+#selectmonster 12
+  #hp  1
+  #str 15
+  #att 14
+  #def 16
+  #mr  13
+  #ap  13
+  #woundfend 99
+  #secondshape 5684 
+#end
+
+-- Bravery I: Triarius
+#selectmonster 688
+  #hp  1
+  #str 13
+  #att 15
+  #def 15
+  #mr  13
+  #ap  15
+  #woundfend 99
+  #secondshape 5685 
+#end
+
+-- Forever Young: Arch Theurg; Theurg; Triarius
+#selectmonster 41
+  #maxage 100
+  #startage 77
+  #older 0
+#end
+#selectmonster 42
+  #maxage 100
+  #startage 52
+  #older 0
+#end
+#selectmonster 688
+  #maxage 100
+  #older 0
+#end
+
+-- Double Cast: Mind Burn
+#newspell
+  #copyspell 989
+  #name "Double Mind Burn"
+  #nreff 2
+  #fatiguecost 40
+  #casttime 150
+  #restricted 46
+#end
+
+-- Double Cast: Astral Fires
+#newspell
+  #copyspell 561
+  #name "Double Astral Fires"
+  #nreff 2
+  #fatiguecost 40
+  #casttime 150
+  #restricted 46
+#end
+
+-- Turbo Researcher I
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 46
+  #req_maxturn 3
+  #req_capital 1
+  #req_unique 1
+  #req_pop0ok
+  #com 5677
+  #msg "A grand sage desires the use of your labratory in exchange for what he knows."
+  #nolog
+#end
+
+-- Awaken Heroes: Nikolaos
+#newevent
+  #req_maxturn 5
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 4
+  #req_fornation 46
+  #req_owncapital 1
+  #req_pop0ok
+  #com 6113
+  #msg "A hero has appeared outside the gates, eager to serve!"
+  #nolog
+#end
+
+-- Hero Boost: Earth Magic Boost Nikolaos; Faster Casting Nikolaos
+#selectmonster 6113
+  #magicboost 3 1
+  #fastcast 20
+#end
+
+-- Power Focus IV: Theurg Acolytes 100% S
+#selectmonster 43
+  #magicskill 4 2
+  #researchbonus -4
+  #gcost 70
+#end
+
+-- Power Focus I: Archtheurgs 55% F
+#selectmonster 41
+  #custommagic 2048 55
+  #researchbonus -1
+  #gcost 390
+#end
+
+-- Adaptive: Heat
+#selectnation 46
+  #idealcold -2
+#end
+
+-- Economic Pretender: Angelic Lord
+-- Strange Body: Arm Arm Angelic Lord
+-- Pretender Power: Fear Angelic Lord
+#selectnation 46
+  #addgod 5686
+  #delgod 5054
+#end  
+
+-- Item Find I: 1 Winged Helmet; 1 Thistle Mace; 1 Kithaironic Lion Pelt
+#newevent
+  #req_maxturn 6
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 5
+  #req_fornation 46
+  #req_owncapital 1
+  #req_pop0ok
+  #com 5687
+  #com 5688
+  #com 5689
+  #msg "The treasury door has been unsealed! The guards present to you the contents. Take the items now, before theives and assassins come for them!"
+  #nolog
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_turn 6
+  #req_fornation 46
+  #req_owncapital 1
+  #req_pop0ok
+  #killcom 5687
+  #killcom 5688
+  #killcom 5689
+  #msg "The guards who presented the sealed treasures have been granted retirement. The secret the magical items' existance is now secure."
+  #nolog
+#end
+
+-- Exemplimary Designers
+#selectnation 46
+  #fortera 3
+  #homefort 14
+#end
+
+-- Inept Masons
+#selectnation 46
+  #fortcost 25
+#end
+
+-- Weak Faith
+#selectnation 46
+  #templecost 600
 #end
 
 -- [[LA Utgard Sub-Block]]
