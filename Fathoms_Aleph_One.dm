@@ -14006,7 +14006,6 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           3 Most Devout
           2 Sacred Resistance I: Shock Poison
           4 Fast Cash II
-         -1 Heretical Texts
          -3 Isolationism
          -2 Imprisioned
          -2 Poorly Trained Militia"
@@ -14126,17 +14125,6 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #msg "You've sold away the previous rulers glory."
   #exactgold 2200
   #nolog
-#end
-
--- Heretical Texts
-#selectmonster 1606 -- Mage Engineer
-  #researchbonus 1
-  #heretic 1
-#end
-#selectmonster 1650 -- Oreiad
-  #researchbonus 1
-  #heretic 1
-  #gcost 395
 #end
 
 -- Isolationism
