@@ -13933,7 +13933,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           4 Fast Cash II
          -4 Bloodthirsy Theurgicals
          -2 Poorly Trained Miltia"
-  #brief "Utgard is the homoe of the giants of the North. Jotuns are immune to the cold and dislike hot lands. With their numbers dwindling, the giants have allied with humans. They don't use cavalry or bows. The human Norns are versatile and powerful sorceresses and seeresses."
+  #brief "Utgard is the home of the giants of the North. Jotuns are immune to the cold and dislike hot lands. With their numbers dwindling, the giants have allied with humans. They don't use cavalry or bows. The human Norns are versatile and powerful sorceresses and seeresses."
 #end
 
 -- Warden protects City
