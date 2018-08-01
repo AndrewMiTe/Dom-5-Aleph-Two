@@ -13963,6 +13963,15 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #killcom 786
   #nolog
 #end
+#newevent
+  #rarity 5
+  #req_targmnr 786
+  #notext
+  #nation 96
+  #2com 5681
+  #killcom 786
+  #nolog
+#end
 
 -- Killer Instinct: Jotun Scout
 #selectmonster 786
