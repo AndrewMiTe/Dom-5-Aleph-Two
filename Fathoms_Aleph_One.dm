@@ -14656,7 +14656,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           3 Teachings of the Elders: Onaqui
           4 Affordable Recruitment: Onaqui
           1 Exemplimary Designers 
-          8 Power Focus VI: Onaqui 100% D 100% D 50% D
+          8 Power Focus VI: Onaqui 100% D 60% D
           1 Economical Pretender: Idol of Watery Wisdom
           7 Sacred Buff II: Strength
          -3 Wildings
@@ -14708,8 +14708,8 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 
 -- Power Focus VI: Onaqui 250% D
 #selectmonster 2736
-  #magicskill 5 5
-  #custommagic 4096 50 
+  #magicskill 4 5
+  #custommagic 4096 60 
 #end
 
 -- Exemplimary Designers 
