@@ -13112,3 +13112,2200 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #selectnation 108
 --We'll see!
 #end
+
+
+-- [[Blank Nations Block]]
+
+#selectnation 5	
+#era	0
+#end	
+#selectnation 6	
+#era	0
+#end	
+#selectnation 7	
+#era	0
+#end	
+#selectnation 8	
+#era	0
+#end	
+#selectnation 9	
+#era	0
+#end	
+#selectnation 10	
+#era	0
+#end	
+#selectnation 11	
+#era	0
+#end	
+#selectnation 12	
+#era	0
+#end	
+#selectnation 13	
+#era	0
+#end	
+#selectnation 14	
+#era	0
+#end	
+#selectnation 15	
+#era	0
+#end	
+#selectnation 16	
+#era	0
+#end	
+#selectnation 17	
+#era	0
+#end	
+#selectnation 18	
+#era	0
+#end	
+#selectnation 19	
+#era	0
+#end	
+#selectnation 20	
+#era	0
+#end	
+#selectnation 21	
+#era	0
+#end	
+#selectnation 22	
+#era	0
+#end	
+#selectnation 23	
+#era	0
+#end	
+#selectnation 24	
+#era	0
+#end	
+#selectnation 25	
+#era	0
+#end	
+#selectnation 26	
+#era	0
+#end	
+#selectnation 27	
+#era	0
+#end	
+#selectnation 28	
+#era	0
+#end	
+#selectnation 29	
+#era	0
+#end	
+#selectnation 30	
+#era	0
+#end	
+#selectnation 31	
+#era	0
+#end	
+#selectnation 32	
+#era	0
+#end	
+#selectnation 36	
+#era	0
+#end	
+#selectnation 37	
+#era	0
+#end	
+#selectnation 38	
+#era	0
+#end	
+#selectnation 39	
+#era	0
+#end	
+#selectnation 40	
+#era	0
+#end	
+#selectnation 43	
+#era	0
+#end	
+#selectnation 44	
+#era	0
+#end	
+#selectnation 45	
+#era	0
+#end	
+#selectnation 46	
+#era	0
+#end	
+#selectnation 47	
+#era	0
+#end	
+#selectnation 48	
+#era	0
+#end	
+#selectnation 49	
+#era	0
+#end	
+#selectnation 50	
+#era	0
+#end	
+#selectnation 51	
+#era	0
+#end	
+#selectnation 52	
+#era	0
+#end	
+#selectnation 53	
+#era	0
+#end	
+#selectnation 54	
+#era	0
+#end	
+#selectnation 55	
+#era	0
+#end	
+#selectnation 56	
+#era	0
+#end	
+#selectnation 57	
+#era	0
+#end	
+#selectnation 58	
+#era	0
+#end	
+#selectnation 59	
+#era	0
+#end	
+#selectnation 60	
+#era	0
+#end	
+#selectnation 61	
+#era	0
+#end	
+#selectnation 62	
+#era	0
+#end	
+#selectnation 63	
+#era	0
+#end	
+#selectnation 64	
+#era	0
+#end	
+#selectnation 65	
+#era	0
+#end	
+#selectnation 66	
+#era	0
+#end	
+#selectnation 67	
+#era	0
+#end	
+#selectnation 68	
+#era	0
+#end	
+#selectnation 69	
+#era	0
+#end	
+#selectnation 70	
+#era	0
+#end	
+#selectnation 71	
+#era	0
+#end	
+#selectnation 72	
+#era	0
+#end	
+#selectnation 73	
+#era	0
+#end	
+#selectnation 74	
+#era	0
+#end	
+#selectnation 75	
+#era	0
+#end	
+#selectnation 76	
+#era	0
+#end	
+#selectnation 77	
+#era	0
+#end	
+#selectnation 80	
+#era	0
+#end	
+#selectnation 81	
+#era	0
+#end	
+#selectnation 82	
+#era	0
+#end	
+#selectnation 83	
+#era	0
+#end	
+#selectnation 84	
+#era	0
+#end	
+#selectnation 85	
+#era	0
+#end	
+#selectnation 86	
+#era	0
+#end	
+#selectnation 87	
+#era	0
+#end	
+#selectnation 88	
+#era	0
+#end	
+#selectnation 89	
+#era	0
+#end	
+#selectnation 90	
+#era	0
+#end	
+#selectnation 91	
+#era	0
+#end	
+#selectnation 92	
+#era	0
+#end	
+#selectnation 93	
+#era	0
+#end	
+#selectnation 94	
+#era	0
+#end	
+#selectnation 95	
+#era	0
+#end	
+#selectnation 96	
+#era	0
+#end	
+#selectnation 97	
+#era	0
+#end	
+#selectnation 98	
+#era	0
+#end	
+#selectnation 99	
+#era	0
+#end	
+#selectnation 100	
+#era	0
+#end	
+#selectnation 101	
+#era	0
+#end	
+#selectnation 106	
+#era	0
+#end	
+#selectnation 107	
+#era	0
+#end	
+#selectnation 108	
+#era	0
+#end
+
+
+-- [[Aleph Block]]
+
+-- [[New Monsters Sub-Block]] {5669-5681}
+
+-- Warden of Civilization
+#newmonster 5669
+  #name "Warden of Civilization"
+  #copystats 768
+  #copyspr 768
+  #hp 500
+  #prot 40
+  #mr 20
+  #str 50
+  #clearweapons
+  #weapon 584
+  #weapon 584
+  #weapon 584
+  #weapon 562
+  #fear 10
+  #awe 1
+  #att 10
+  #def 10
+  #noleader
+  #regeneration 6
+  #descr "The Pantokrator's Watchers won't stand aside and watch should the city they've been charged with protecting come under attack. They serve as the model for the summon of the same name."
+#end
+
+-- Economic Pretender: Chthonic Cyclops (for Pangaea)
+-- Back Soon: Chthonic Cyclops (for Pangaea)
+#newmonster 5670
+  #copystats 156
+  #copyspr 156
+  #descr "The Cyclops is a one-eyed giant sprung from the roots of a giant mountian. The body of the Cyclops is huge and as hard as the rock from which it was born. The Cyclops is a master of Earth magic and will use less resources when forging magic items. In battle it will manifest Earth gems to aid in spellcasting. Oh, and happens to be immortal."
+  #homerealm 0
+  #gcost 180
+  #immortal
+#end
+
+-- Eater of Gods for Imprisoned
+#newmonster 5671
+  #copystats 1148
+  #copyspr 1148
+#end
+
+-- Sage for Turbo Research II
+#newmonster 5672
+  #copystats 478
+  #copyspr 478
+  #clearmagic
+  #fixedresearch 250
+  #researchbonus 0
+  #gcost 0
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_turn 13
+  #req_pop0ok
+  #req_monster 5672
+  #killcom 5672
+  #msg "The sage has learned the secret to freeing its soul and has left this mortal realm."
+  #nolog
+#end
+
+-- Economic Pretender: Idol of Waterty Wisdom (for Ragha & Xibalba)
+#newmonster 5673
+  #copystats 4987
+  #copyspr 4987
+  #name "Idol of Watery Wisdom"
+  #descr "The Idol of Watery Wisdom is a primordial spirit of knowledge and water that once served a previous Pantokrator and brought wisdom to the world. When the world had learned enough its services were no longer needed and the spirit was bound in a huge stone statue for eternity. With the Pantokrator gone, its powers have begun to manifest themselves and it is now worshipped as a reawakening god. The spirit cannot leave the statue, but it can possess willing targets in order to make its will heard and to perform tasks such as forging items for enchantment. The spirit is tremendously strong in its dominion. In a physical battle, the statue would be difficult to destroy, even though it cannot strike back."
+  #homerealm 0
+  #gcost 132
+#end
+
+-- Bravery I: Hirdman (for Helheim)
+#newmonster 5674
+  #copystats 1510
+  #copyspr 1510
+  #str 9
+  #att 10
+  #def 12
+  #mr  12
+  #mor 7
+  #firstshape 1510
+#end
+
+-- Magic Pact: Lizard King (for Ermor)
+#newmonster 5675
+  #copystats 177
+  #copyspr 177
+#end
+
+-- Enhanced Magic: Magicboost Stone Magus (for Helheim) 
+#newmonster 5676
+  #copystats 4910
+  #copyspr 4910
+  #name "Stone Magus"
+  #descr "The Stone Magus is a mage who has attained such power that he has mastered his own mortality. Donning a godly mantle, he has taken the role of a Pretender God. The Stone Magus is a master of magic and can be adept in several magic paths. He is a master mason and is able to create great architectural wonders."
+  #homerealm 0
+  #magicboost 0 1
+  #magicboost 1 1
+  #magicboost 2 1
+  #magicboost 3 1
+  #magicboost 4 1
+  #magicboost 5 1
+  #magicboost 6 1
+  #magicboost 7 1
+#end
+
+-- Sage for Turbo Research I
+#newmonster 5677
+  #copystats 478
+  #copyspr 478
+  #clearmagic
+  #fixedresearch 150
+  #researchbonus 0
+  #gcost 0
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_turn 13
+  #req_pop0ok
+  #req_monster 5677
+  #killcom 5677
+  #msg "The sage has learned the secret to freeing its soul and has left this mortal realm."
+  #nolog
+#end
+
+-- Economic Pretender: Bahomet (for Marignon)
+-- Magical Overseer: Bahomet
+#newmonster 5678
+  #copystats 607
+  #copyspr 607
+  #homerealm 0
+  #gcost 106
+  #inspiringres 3
+#end
+
+-- Bravery I: Iron Crow (for Caelum)
+#newmonster 5679
+  #copystats 1279
+  #copyspr 1279
+  #str 9
+  #att 10
+  #def 9
+  #mr  8
+  #mor 7
+  #firstshape 1279
+#end
+
+-- Economic Pretender: Wisdom King (for Caelum)
+#newmonster 5680
+  #copystats 5027
+  #copyspr 5027
+  #homerealm 0
+  #descr "The Wisdom Kings or Guardian Kings are divine warriors created to protect the Tathagatas. Whereas the Tathagatas represent pure concepts and teach through compassion, Wisdom Kings are the embodiment of the wheel of injunction and teach through fear, shocking nonbelievers into faith. They are wrathful manifestations of the divine, many-armed and wreathed in flames."
+  #gcost 228
+#end
+
+-- Double Speed: Jotun Scout (for Utgard)
+#newmonster 5681
+  #copystats 786
+  #copyspr 786
+#end
+
+-- Economic Pretender: Idol of Winter (for Utgard)
+-- Enhanced Magic: Magicboost All Idol of Winter
+#newmonster 5682
+  #copystats 4999
+  #copyspr 4999
+  #homerealm 0
+  #descr "The Wisdom Kings or Guardian Kings are divine warriors created to protect the Tathagatas. Whereas the Tathagatas represent pure concepts and teach through compassion, Wisdom Kings are the embodiment of the wheel of injunction and teach through fear, shocking nonbelievers into faith. They are wrathful manifestations of the divine, many-armed and wreathed in flames."
+  #gcost 116
+  #magicboost 0 1
+  #magicboost 1 1
+  #magicboost 2 1
+  #magicboost 3 1
+  #magicboost 4 1
+  #magicboost 5 1
+  #magicboost 6 1
+  #magicboost 7 1
+#end
+
+-- [[New Weapons Sub-Block]] {1725}
+
+#newweapon 1725
+  #name "Light Saber"
+  #dmg 6
+  #nratt 1
+  #att 1
+  #def 1
+  #len 1
+  #sound 8
+  #rcost 33
+  #magic
+  #slash
+  #armornegating
+  #ironweapon
+#end
+
+-- [[All Nations Sub-Block]]
+
+-- Remove Astral Corruption
+#selectspell 1102
+  #researchlevel 12
+#end
+
+-- Increase Research Level for Burden of Time
+#selectspell 1018
+  #researchlevel 8
+#end
+
+-- Warden of Civilization
+#newevent
+  #rarity 5
+  #nation -2
+  #req_turn 12
+  #req_pop0ok
+  #req_monster 5669
+  #killcom 5669
+  #msg "The blessings of the previous pantokrator have collapsed."
+  #nolog
+#end
+
+-- [[LA Utgard Sub-Block]]
+
+#selectnation 96
+  #name "LA Utgard"
+  #era 2
+  #epithet "The Dead Death of unimaginable23"
+  #descr "1 Double Speed: Jotun Scout
+          2 Killer Instinct: Jotun Scout
+          3 Sacrifices of Power
+          4 Research Reducer: Tartarian Gate
+          4 Research Reducer: Well of Misery
+          8 Gem Production II: Death
+          3 Turbo Researcher I
+          3 Eldritch Espionage: Contact Onaqui
+          2 Power Focus I: Norn 55% Nature
+          1 Economic Pretender: Idol of Winter
+          2 Enhanced Magic: Magicboost All Idol of Winter
+          4 Fast Cash II
+         -4 Bloodthirsy Theurgicals
+         -2 Poorly Trained Miltia"
+  #brief "Utgard is the homoe of the giants of the North. Jotuns are immune to the cold and dislike hot lands. With their numbers dwindling, the giants have allied with humans. They don't use cavalry or bows. The human Norns are versatile and powerful sorceresses and seeresses."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 96
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Double Speed: Jotun Scout
+#selectmonster 786
+  #gcost 110
+#end
+#newevent
+  #rarity 5
+  #req_targmnr 786
+  #notext
+  #nation 96
+  #2com 5681
+  #killcom 786
+  #nolog
+#end
+
+-- Killer Instinct: Jotun Scout
+#selectmonster 786
+  #assassin
+  #patience -2
+#end
+#selectmonster 5681
+  #assassin
+  #patience -2
+  #gcost 55
+#end
+
+-- Sacrifices of Power
+#selectnation 96
+  #sacrificedom
+#end
+
+-- Research Reducer: Tartarian Gate
+#newspell
+  #copyspell 849
+  #researchlevel 6
+  #restricted 96
+#end
+
+-- Research Reducer: Well of Misery
+#newspell
+  #copyspell 837
+  #researchlevel 5
+  #restricted 96
+#end
+
+-- Gem Production II: Death
+#newsite
+  #name "Utgard's Boon"
+  #rarity 5
+  #path 5
+  #gems 5 7
+#end
+#selectnation 96
+  #startsite "Utgard's Boon"
+#end
+
+-- Turbo Researcher I
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 96
+  #req_maxturn 3
+  #req_capital 1
+  #req_unique 1
+  #req_pop0ok
+  #com 5677
+  #msg "A grand sage desires the use of your labratory in exchange for what he knows."
+  #nolog
+#end
+
+-- Eldritch Espionage: Contact Onaqui
+#newspell
+  #copyspell 401
+  #restricted 96
+#end
+
+-- Power Focus I: Norna 55% Nature
+#selectmonster 281
+  #custommagic 8192 55
+  #researchbonus -1
+  #gcost 210
+#end
+
+-- Economic Pretender: Idol of Winter
+-- Enhanced Magic: Magicboost All Idol of Winter
+#selectnation 96
+  #addgod 5682
+  #delgod 4999
+#end
+
+-- Fast Cash II
+#newevent
+  #req_maxturn 2
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_fornation 96
+  #req_capital 1
+  #req_pop0ok
+  #msg "You've sold away the previous rulers glory."
+  #exactgold 2200
+  #nolog
+#end
+
+-- Bloodthirsy Theurgicals
+#selectnation 96
+  #dyingdom
+  #nopreach
+#end
+
+-- Poorly Trained Miltia
+#selectnation 96
+  #defcom1 30
+  #defcom2 30
+  #defunit1 30
+  #defunit2 30
+  #defunit2b 30
+#end
+
+-- [[LA Caelum Sub-Block]]
+
+#selectnation 92
+  #name "LA Caelum"
+  #era 2
+  #epithet "Quiles' Crows Come Tapping"
+  #descr "12 Artifact Weapons: AN Iron Crow
+          4 Bravery I: Iron Crow
+          5 Eldritch Corruption: Earth Astral
+          6 Conscription II: 4800 gold Iron Crows
+          1 Economic Pretender: Wisdom King
+          1 Exeplirary Designers
+          5 Rich in Minerals II
+          4 Power Focus II: Harab Elder +100% FAWESDNB +20% S
+         -3 Weak Faith
+         -3 Inept Smiths"
+  #brief "Caelum is a mageocracy of winged mountain beings. The mages are skilled in Air, Earth, and Death magic. They also have Earth smiths capable of producing magic items with very few resources. Caelum has very skilled archers and trains mammoths."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 92
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Artifact Weapons: AN Iron Crow
+#selectmonster 1279
+  #gcost 16
+  #rpcost 38
+  #clearweapons
+  #weapon 1725
+#end
+
+-- Bravery I: Iron Crow
+#selectmonster 1279
+  #hp  1
+  #str 14
+  #att 15
+  #def 14
+  #mr  13
+  #ap  12
+  #startage 26
+  #woundfend 99
+  #secondshape 5679 
+#end
+
+-- Eldritch Corruption: Earth Astral
+#selectmonster 1281 -- Iron Crafter
+  #clearmagic
+  #magicskill 4 1
+#end
+#selectmonster 1282 -- Caretaker
+  #clearmagic
+  #magicskill 4 1
+  #magicskill 5 1
+  #magicskill 8 1
+#end
+#selectmonster 951 -- Harab Seraph
+  #clearmagic
+  #magicskill 1 1
+  #magicskill 5 1
+  #custommagic 7040 100
+#end
+#selectmonster 1003 -- Harb Elder
+  #clearmagic
+  #magicskill 1 2
+  #magicskill 4 1
+  #magicskill 5 2
+  #magicskill 8 2
+  #custommagic 7040 100
+  #custommagic 7040 10
+#end
+
+-- Conscription II: 4800 gold Iron Crows
+#newevent
+  #req_maxturn 18
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 17
+  #req_fornation 92
+  #req_owncapital 1
+  #req_pop0ok
+  #15d6units 1279 -- Iron Crows
+  #msg "An army has answered the call to arms!"
+  #nolog
+#end
+#newevent
+  #req_maxturn 18
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 17
+  #req_fornation 92
+  #req_owncapital 1
+  #req_pop0ok
+  #15d6units 1279 -- Iron Crows
+  #notext
+  #nolog
+#end
+#newevent
+  #req_maxturn 18
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 17
+  #req_fornation 92
+  #req_owncapital 1
+  #req_pop0ok
+  #15d6units 1279 -- Iron Crows
+  #notext
+  #nolog
+#end
+#newevent
+  #req_maxturn 18
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 17
+  #req_fornation 92
+  #req_owncapital 1
+  #req_pop0ok
+  #15d6units 1279 -- Iron Crows
+  #notext
+  #nolog
+#end
+#newevent
+  #req_maxturn 18
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 17
+  #req_fornation 92
+  #req_owncapital 1
+  #req_pop0ok
+  #15d6units 1279 -- Iron Crows
+  #notext
+  #nolog
+#end
+#newevent
+  #req_maxturn 18
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 17
+  #req_fornation 92
+  #req_owncapital 1
+  #req_pop0ok
+  #11d6units 1279 -- Iron Crows
+  #notext
+  #nolog
+#end
+
+-- Economic Pretender: Wisdom King
+#selectnation 92
+  #addgod 5680
+  #delgod 5027
+#end
+
+-- Exeplirary Designers
+#selectnation 92
+  #fortera 4
+  #homefort 19
+#end
+
+-- Rich in Minerals II
+#newsite
+  #name "Caelum's Boon"
+  #rarity 5
+  #path 5
+  #res 280
+#end
+#selectnation 92
+  #startsite "Caelum's Boon"
+#end
+
+-- Power Focus II: Harab Elder +100% FAWESDNB +20% S
+#selectmonster 1003 -- Harb Elder
+  #custommagic 32640 100 
+  #custommagic 2048 20
+  #researchbonus -2
+  #gcost 305
+#end
+
+-- Weak Faith
+#selectnation 92
+  #templecost 600
+#end
+
+-- Inept Smiths
+#selectmonster 1281 -- Iron Crafter
+  #fixforgebonus 0
+#end
+#selectmonster 1282 -- Caretaker
+  #fixforgebonus -1
+#end
+#selectmonster 951 -- Harab Seraph
+  #fixforgebonus -1
+#end
+#selectmonster 1004 -- Caelian Seraph
+  #fixforgebonus -1
+#end
+#selectmonster 1003 -- Harb Elder
+  #fixforgebonus -1
+#end
+
+-- [[EA Arcoscephale Sub-Block]]
+
+#selectnation 5
+  #name "EA Arcoscephale"
+  #era 2
+  #epithet "Bane Fires of Melfice Belmont"
+  #descr "6 Turbo Researcher II
+          8 Mercantile Empire
+          5 Eldritch Corruption Water Death
+          4 Research Reducer: Bane Fire
+          2 Anoint: Mystic Mage Engineer Myrmidon Champion
+          4 Power Focus II: Mystic 50% D
+          3 Most Devout
+          2 Sacred Resistance I: Shock Poison
+          4 Fast Cash II
+         -1 Heretical Texts
+         -3 Isolationism
+         -2 Imprisioned
+         -2 Poorly Trained Militia"
+  #brief "An ancient human kingdom led by Philosophers, Acroscephale mainly uses heavy infantry, chariots, and flying Icarids. The Philosophers are skilled researchers. Oreiads, roaming mountian spirits, and Mystics skilled in Astral and Elemental magic give Arcoscephale great magical versatility. The priestesses of Arcoscephale can heal wounded soldiers."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 5
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Turbo Researcher II
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 5
+  #req_maxturn 3
+  #req_capital 1
+  #req_unique 1
+  #req_pop0ok
+  #com 5672
+  #msg "A grand sage desires the use of your labratory in exchange for what he knows."
+  #nolog
+#end
+
+-- Mercantile Empire
+#selectnation 5
+  #nationinc 21
+#end
+
+-- Eldritch Corruption Water Death
+#selectmonster 311 -- Mystic
+  #clearmagic
+  #magicskill 4 1
+  #custommagic 7296 100
+  #custommagic 128 50
+  #custommagic 1024 50
+  #custommagic 4096 50
+#end
+#selectmonster 1606 -- Mage Engineer
+  #clearmagic
+  #magicskill 1 1
+  #magicskill 3 1
+  #custommagic 7552 100
+#end
+#selectmonster 1650 -- Oreiad
+  #clearmagic
+  #magicskill 1 2
+  #magicskill 3 1
+  #magicskill 6 3
+  #custommagic 13568 100
+  #custommagic 13568 10
+#end
+
+-- Research Reducer: Bane Fire
+#newspell
+  #copyspell 564
+  #researchlevel 3
+  #restricted 5
+#end
+
+-- Anoint: Mystic Mage Engineer Myrmidon Champion
+#selectmonster 311 -- Mystic
+  #holy
+  #gcost 145
+#end
+#selectmonster 1606 -- Mage Engineer
+  #holy
+  #gcost 135
+#end
+#selectmonster 1076 -- Myrmidon Champion
+  #holy
+  #gcost 75
+#end
+
+-- Power Focus II: Mystic 50% D
+#selectmonster 311
+  #custommagic 4096 50
+  #researchbonus -1
+#end
+
+-- Most Devout
+#selectnation 5
+  #templecost 200 
+#end
+
+-- Sacred Resistance I: Shock Poison
+#newsite
+  #name "Arcoscephale's Boon"
+  #rarity 5
+  #path 5
+  #blessshockres 5
+  #blesspoisres 5
+#end
+#selectnation 5
+  #startsite "Arcoscephale's Boon"
+#end
+
+-- Fast Cash II
+#newevent
+  #req_maxturn 2
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_fornation 5
+  #req_capital 1
+  #req_pop0ok
+  #msg "You've sold away the previous rulers glory."
+  #exactgold 2200
+  #nolog
+#end
+
+-- Heretical Texts
+#selectmonster 1606 -- Mage Engineer
+  #researchbonus 1
+  #heretic 1
+#end
+#selectmonster 1650 -- Oreiad
+  #researchbonus 1
+  #heretic 1
+  #gcost 395
+#end
+
+-- Isolationism
+#selectnation 5
+  #clearrec
+  #addreccom 431 -- Scout
+  #addreccom 1072 -- Engineer
+  #addreccom 1071 -- Sceptic
+  #addreccom 1083 -- Icarid Commander
+  #addreccom 1081 -- Chariot Commander
+  #addreccom 1076 -- Myrmidon Champion
+  #addreccom 311 -- Mystic
+  #addreccom 3197 -- Melissa
+  #addrecunit 50 -- Slinger
+  #addrecunit 199 -- Cardaces
+  #addrecunit 201 -- Peltast
+  #addrecunit 1082 -- Icarid
+  #addrecunit 1077 -- Myrmidon
+  #addrecunit 1078 -- Chariot
+  #addrecunit 1079 -- Chariot Archer
+#end
+
+-- Imprisioned
+#newevent
+  #rarity 5
+  #req_fornation 5
+  #req_pop0ok
+  #nation -2
+  #req_targgod 1
+  #req_mydominion 0
+  #assassin 5671
+  #msg "Attacked for going outside dominion."
+  #notext
+  #nolog
+#end
+
+-- Poorly Trained Militia
+#selectnation 5
+  #defcom1 30
+  #defcom2 30
+  #defunit1 30
+  #defunit1b 30
+  #defunit2 30
+  #defunit2b 30
+  #defunit2c 30
+#end
+
+-- [[MA Marignon Sub-Block]]
+
+#selectnation 50
+  #name "MA Marignon"
+  #era 2
+  #epithet "The Red Zaku of Fiery Death"
+  #descr "10 Rainbow Production II
+          2 Item Research: LightLess Lantern
+          6 Power Focus III: Initiate 75% Fire
+          2 Power Focus I: Witch Hunter 25% Death
+          3 BYO Armor: Knight of the Chalice
+          5 Rich in Minerals II
+          1 Economic Pretender: Bahomet
+          3 Magical Overseer: Bahomet
+          3 Academically Minded
+          3 Master Masonery
+         -3 Weak Faith
+         -2 Imprissoned
+         -1 Wildlings"
+  #brief "Marignon is a human kingdom based on religious zeal. Holy knights and inquisitors ride out to purge the world of enemy faiths. Marignon has powerful Fire and Astral mages and powerful priests."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 50
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Rainbow Production II
+-- Rich in Minerals II
+#newsite
+  #name "Marignon's Boon"
+  #rarity 5
+  #path 5
+  #res 280
+  #gems 0 2
+  #gems 1 2
+  #gems 2 2
+  #gems 3 2
+  #gems 4 2
+  #gems 5 2
+  #gems 6 2
+#end
+#selectnation 50
+  #startsite "Marignon's Boon"
+#end
+
+-- Item Research: LightLess Lantern
+#newitem
+  #copyitem 337
+  #name "Fiery Death Lantern"
+  #descr "This lantern shines with a baneful light. The fiery light reveals secrets and is a great help when researching magic spells. However, this baneful light may also reveal the bearer of the lantern to the Horrors lurking behind the Veil."
+  #constlevel 4
+  #restricted 50
+#end
+
+-- Power Focus III: Initiate 75% Fire
+#selectmonster 225
+  #custommagic 128 75
+  #researchbonus -3
+  #gcost 45
+#end
+
+-- Power Focus I: Witch Hunter 25% Death
+#selectmonster 224
+  #custommagic 4096 25
+  #researchbonus -1
+  #gcost 195
+#end
+
+-- BYO Armor: Knight of the Chalice
+#selectmonster 135
+  #rcost 10
+#end
+
+-- Economic Pretender: Bahomet
+-- Magical Overseer: Bahomet
+#selectnation 50
+  #addgod 5678
+  #delgod 607
+#end
+
+-- Academically Minded
+#selectnation 50
+  #labcost 250
+#end
+
+-- Master Masonery
+#selectnation 50
+  #fortcost -25
+#end
+
+-- Weak Faith
+#selectnation 50
+  #templecost 600
+#end
+
+-- Imprissoned
+#newevent
+  #rarity 5
+  #req_fornation 50
+  #req_pop0ok
+  #nation -2
+  #req_targgod 1
+  #req_mydominion 0
+  #assassin 5671
+  #msg "Attacked for going outside dominion."
+  #notext
+  #nolog
+#end
+
+-- Wildlings
+#selectmonster 135 -- Knight of the Chalice
+  #incunrest 5
+#end
+#selectmonster 217 -- Flagellant
+  #incunrest 5
+#end
+
+-- [[EA Helheim Sub-Block]]
+
+#selectnation 21
+  #name "EA Helheim"
+  #era 2
+  #epithet "Mechrite's Hangadrott Hold Up"
+  #descr "1 Exemplimary Designers
+          4 Bravery I: Hirdman
+          4 Affordable Recruit: Hangadrott
+          3 Teachings of the Elders: Hangadrott
+          1 Adaptive: Heat
+          3 Turbo Researcher I
+          2 Enhanced Magic: Magicboost Stone Magus
+          4 Capitalism I
+         -6 Cursed: Cold"
+  #brief "Helheim is a nation of Vinir ruled by Hanged Kings guarding the entrance to Hel. Vanir can hide themselves with illusion. They utilize many unique troops, including flying Valkyries. The Hangadrotts are powerful Death and Air mages and The Svartalf are skilled in Earth and Death magic."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 21
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Exemplimary Designers
+#selectnation 21
+  #fortera 2
+#end
+
+-- Bravery I: Hirdman
+#selectmonster 1510
+  #hp  1
+  #str 14
+  #att 15
+  #def 17
+  #mr  17
+  #ap  16
+  #woundfend 99
+  #secondshape 5674
+#end
+
+-- Teachings of the Elders: Hangadrott
+-- Affordable Recruit: Hangadrott
+#selectmonster 847
+  #gcost 293
+#end
+#selectnation 21
+  #addreccom 847
+#end
+#selectsite "Helhalla"
+  #clear
+  #homemon 855 -- Valkyrie
+  #homemon 1503 -- Helhirding
+  #homecom 1507 -- Dis
+  #gems 1 1
+#end
+
+-- Adaptive: Heat
+#selectnation 21
+  #idealcold -1
+#end
+
+-- Turbo Researcher I
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 21
+  #req_maxturn 3
+  #req_capital 1
+  #req_unique 1
+  #req_pop0ok
+  #com 5677
+  #msg "A grand sage desires the use of your labratory in exchange for what he knows."
+  #nolog
+#end
+
+-- Enhanced Magic: Magicboost Stone Magus 
+#selectnation 21
+  #addgod 5676
+  #delgod 4910
+#end
+
+-- Capitalism I
+#newevent
+  #req_maxturn 2
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_fornation 21
+  #req_capital 1
+  #req_pop0ok
+  #msg "Baby Boom"
+  #incpop 320
+  #nolog
+#end
+#newsite
+  #name "Helheim's Boon"
+  #rarity 5
+  #path 6
+  #gold 110
+#end
+#selectnation 21
+  #startsite "Helheim's Boon"
+#end
+
+-- Cursed: Cold
+#selectmonster 1512 -- Van Scout
+  #coldres -9
+#end
+#selectmonster 1505 -- Vanherse
+  #coldres -9
+#end
+#selectmonster 1502 -- Helkarl
+  #coldres -9
+#end
+#selectmonster 1506 -- Vanjarl
+  #coldres -9
+#end
+#selectmonster 1010 -- Svartalf
+  #coldres -9
+#end
+#selectmonster 1507 -- Dis
+  #coldres -9
+#end
+#selectmonster 847 -- Hangadrott
+  #coldres -9
+#end
+#selectmonster 1679 -- Serf Warrior
+  #coldres -9
+#end
+#selectmonster 1508 -- Huskarl
+  #coldres -9
+#end
+#selectmonster 1509 -- Huskarl
+  #coldres -9
+#end
+#selectmonster 1510 -- Hirdman
+  #coldres -9
+#end
+#selectmonster 855 -- Valkyrie
+  #coldres -9
+#end
+#selectmonster 1504 -- Mounted Hirdman
+  #coldres -9
+#end
+#selectmonster 1503 -- Helhirding
+  #coldres -9
+#end
+
+-- [[LA Ragha Sub-Block]]
+
+#selectnation 100
+  #name "LA Ragha"
+  #era 2
+  #epithet "Tarvil's Flying Circus of Zhayedans"
+  #descr "2 Sacred Resistance II: Fire Shock
+          5 Sacred Buff I: Reinvigoration
+          1 Economic Pretender: Idol of Watery Wisdom
+          4 Affordable Recruit: Zhayedan
+          5 Rich in Minerals II
+          5 Eldritch Corruption: Fire Astral
+         -6 Cursed: Cold"
+  #brief "Ragha is a dual kingdom of cold resistant and winged Airyas and heat resistant Turans. The mages are skilled in most paths except nature. Ragha has skilled archers and trains gryphon-riding Immortals."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 100
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Sacred Resistance II: Fire Shock
+-- Sacred Buff I: Reinvigoration
+-- Rich in Minerals II
+#newsite
+  #name "Ragha's Boon"
+  #rarity 5
+  #path 5
+  #res 280
+  #blessreinvig 2
+  #blessfireres 5
+  #blessshockres 5
+#end
+#selectnation 100
+  #startsite "Ragha's Boon"
+#end
+
+-- Economical Pretender: Idol of Watery Wisdom
+#selectnation 100
+  #addgod 5673
+  #delgod 4987
+#end
+
+-- Affordable Recruit: Zhayedan
+#selectmonster 2587 - Zhayedan
+  #gcost 81
+#end
+
+-- Eldritch Corruption: Fire Astral
+#selectmonster 2599 -- Karapan
+  #clearmagic
+  #magicskill 4 1
+  #magicskill 8 1
+  #custommagic 20736 100
+#end
+#selectmonster 2602 -- Athravan
+  #clearmagic
+  #magicskill 4 1
+  #magicskill 8 1
+  #custommagic 896 100
+#end
+#selectmonster 2603 -- Zaotar
+  #clearmagic
+  #magicskill 1 1
+  #magicskill 2 1
+  #magicskill 4 1
+  #magicskill 8 2
+  #custommagic 2944 100
+#end
+#selectmonster 2600 -- Dastur
+  #clearmagic
+  #magicskill 4 1
+  #magicskill 5 1
+  #magicskill 7 1
+  #magicskill 8 2
+  #custommagic 22784 100
+#end
+#selectmonster 2604 -- Airya Seraph
+  #clearmagic
+  #magicskill 0 1
+  #magicskill 1 3
+  #magicskill 2 1
+  #custommagic 2688 100
+  #custommagic 20480 10
+#end
+#selectmonster 2601 -- Turan Sorcerer
+  #clearmagic
+  #magicskill 4 3
+  #magicskill 5 1
+  #magicskill 7 1
+  #custommagic 20736 100
+  #custommagic 640 10
+#end
+
+-- Cursed: Cold
+#selectmonster 2595 -- Airya Scout
+  #coldres 0
+#end
+#selectmonster 2597 -- Paighan-Salar
+  #coldres -9
+#end
+#selectmonster 2596 -- Airya Spahbed
+  #coldres 0
+#end
+#selectmonster 2588 -- Turan Spahbed
+  #coldres -9
+#end
+#selectmonster 2606 -- Airya Shah
+  #coldres 0
+#end
+#selectmonster 2605 -- Turan Shah
+  #coldres -9
+#end
+#selectmonster 2599 -- Karapan
+  #coldres -9
+#end
+#selectmonster 2602 -- Athravan
+  #coldres 0
+#end
+#selectmonster 2603 -- Zaotar
+  #coldres 0
+#end
+#selectmonster 2600 -- Dastur
+  #coldres -9
+#end
+#selectmonster 2604 -- Airya Seraph
+  #coldres 0
+#end
+#selectmonster 2601 -- Turan Sorcerer
+  #coldres -9
+#end
+#selectmonster 2629 -- Zhayedan Spahbed
+  #coldres -9
+#end
+#selectmonster 2638 -- Turan Gryphon
+  #coldres -9
+#end
+#selectmonster 2579 -- Paighan
+  #coldres -9
+#end
+#selectmonster 2589 -- Airya Archer
+  #coldres 0
+#end
+#selectmonster 2590 -- Airya Light Infantry
+  #coldres 0
+#end
+#selectmonster 2591 -- Airya Infantry
+  #coldres 0
+#end
+#selectmonster 2580 -- Turan Infantry
+  #coldres -9
+#end
+#selectmonster 2581 -- Turan Heavy Infantry
+  #coldres -9
+#end
+#selectmonster 2592 -- Iceclad Zhayedan
+  #coldres 0
+#end
+#selectmonster 2582 -- Turan Horse Archer
+  #coldres -9
+#end
+#selectmonster 2583 -- Turan Cavalry
+  #coldres -9
+#end
+#selectmonster 2584 -- Savaran Cataphract
+  #coldres -9
+#end
+#selectmonster 2585 -- Savaran Guard
+  #coldres -9
+#end
+#selectmonster 2587 -- Zhayedan
+  #coldres -9
+#end
+#selectmonster 2628 -- Turan Gryphon
+  #coldres -9
+#end
+#selectmonster 2586 -- Turan War Elephant
+  #coldres -9
+#end
+
+-- [[EA Xibalba Sub-Block]]
+
+#selectnation 31
+  #name "EA Xibalba"
+  #era 2
+  #epithet "Alany's Onaqui are Bat Men"
+  #descr "6 Conscription 2: 4800g Onaqui
+          8 Mercantile Empire
+          3 Teachings of the Elders: Onaqui
+          4 Affordable Recruitment: Onaqui
+          1 Exemplimary Designers 
+          8 Power Focus VI: Onaqui 100% D 100% D 50% D
+          1 Economical Pretender: Idol of Watery Wisdom
+          7 Sacred Buff II: Strength
+         -3 Wildings
+         -3 Isolationism"
+  #brief "Cave dwelling bat people that once guided the sun on its night-time passage through their caves."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 31
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Conscription II: 4800g Onaqui
+#newevent
+  #req_maxturn 18
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 17
+  #req_fornation 31
+  #req_owncapital 1
+  #req_pop0ok
+  #com 2736
+  #2com 2736
+  #4com 2736
+  #5com 2736
+  #msg "An army has answered the call to arms!"
+  #nolog
+#end
+
+-- Mercantile Empire
+#selectnation 31
+  #nationinc 21
+#end
+
+-- Affordable Recruitment: Onaqui
+#selectmonster 2736
+  #gcost 400
+#end
+
+-- Power Focus VI: Onaqui 250% D
+#selectmonster 2736
+  #magicskill 5 5
+  #custommagic 4096 50 
+#end
+
+-- Exemplimary Designers 
+#selectnation 31
+  #fortera 2
+#end
+
+-- Economical Pretender: Idol of Watery Wisdom
+#selectnation 31
+  #addgod 5673
+  #delgod 4987
+#end
+
+-- Sacred Buff II: Strength
+#newsite
+  #name "Xibalba's Boon"
+  #rarity 5
+  #path 5
+  #blessstr 3
+#end
+#selectnation 31
+  #startsite "Xibalba's Boon"
+#end
+
+-- Wildings
+#selectmonster 1357 -- Beast Bat
+  #incunrest 5
+#end
+#selectmonster 2672 -- Sun Guide
+  #incunrest 5
+#end
+
+-- Isolationism
+-- Teachings of the Elders: Onaqui
+#selectsite "House of Knives"
+  #clear
+  #gems 5 2
+#end
+#selectnation 31
+  #clearrec
+  #addrecunit 2687 -- Large Scorpion
+  #addrecunit 2688 -- Giant Scorpion
+  #addrecunit 2668 -- Xibalban Warrior
+  #addrecunit 2669 -- Xibalban Warrior
+  #addrecunit 2670 -- Xibalban Dar Thrower
+  #addrecunit 2671 -- Xibalban Guard
+  #addrecunit 2689 -- Xibalban Scorpian
+  #addreccom 2674 -- Batab
+  #addreccom 2691 -- Xibalban Scorpian Trainer
+  #addreccom 2675 -- Ajaw
+  #addreccom 2676 -- Ajaw Kan Ek'
+  #addreccom 2679 -- Ah Nakom
+  #addreccom 2678 -- Chilan
+  #addreccom 2736 -- Ah K'in
+  #addreccom 2680 -- Ah Itz
+  #addreccom 2681 -- Camazotz
+  #addreccom 2736 -- Onaqui
+#end
+
+-- [[MA Ashdod Sub-Block]]
+
+#selectnation 65
+  #name "MA Ashdod"
+  #era 2
+  #epithet "Exo Raven's Anakite Army of Doom"
+  #descr "10 Divergent Faith: Ahiman Anakite
+          3 BYO Armor: Ahiman Anakite
+          3 Teachings of the Elders: Zamzummite
+          4 Merchant Princes
+          1 Fuadalism: Ashdod
+          1 Dual Kingdom: Ashdod
+         -2 Imprisoned
+         -1 Heretical Texts
+         -3 Wildings"
+  #brief "Ashdod is a wasteland inhabited by gaints. The giants have degenerated since earlier times and only in the Twin Cities live the Anakim of pure blood."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 65
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Divergent Faith: Ahiman Anakites
+-- BYO Armor: Ahiman Anakites
+-- Teachings of the Elders: Zamzummites
+#selectmonster 2026 -- Ahiman Anakites
+  #gcost 130
+  #rcost -27
+#end
+#selectmonster 2011 -- Zamzummites
+  #gcost 350
+#end
+#selectsite "The Twin Cities"
+  #clear
+  #homecom 2027
+  #homecom 2028
+  #homemon 2025
+#end
+#selectnation 65
+  #addrecunit 2026
+  #addreccom 2011
+#end
+
+-- Merchant Princes
+#selectnation 65
+  #nationinc 11
+#end
+
+-- Fuadalism: Ashdod
+#selectnation 65
+  #nationinc 11
+#end
+#selectnation 75
+  #nationinc -8
+#end
+
+-- Dual Kingdom: Ashdod
+#newevent
+  #rarity 0
+  #req_fornation 65
+  #req_pop0ok
+  #req_rare 50
+  #notext
+  #nolog
+  #decscale 2
+#end
+#newevent
+  #rarity 0
+  #req_fornation 75
+  #req_pop0ok
+  #req_rare 50
+  #notext
+  #nolog
+  #incscale 2
+#end
+
+-- Imprisoned
+#newevent
+  #rarity 5
+  #req_fornation 65
+  #req_pop0ok
+  #nation -2
+  #req_targgod 1
+  #req_mydominion 0
+  #assassin 5671
+  #msg "Attacked for going outside dominion."
+  #notext
+  #nolog
+#end
+
+-- Heretical Texts
+#selectmonster 2027 -- Adon
+  #researchbonus -3
+  #heretic 1
+  #gcost 290
+#end
+#selectmonster 2028 -- Talmai Elder
+  #researchbonus 9
+  #heretic 1
+  #gcost 360
+#end
+
+-- Wildings
+#selectmonster 2029 -- Kohen
+  #incunrest 5
+#end
+#selectmonster 2027 -- Adon
+  #incunrest 5
+#end
+#selectmonster 2011 -- Zamzummite
+  #incunrest 5
+#end
+#selectmonster 2028 -- Talmai Elder
+  #incunrest 5
+#end
+#selectmonster 2025 -- Sheshai Anakites
+  #incunrest 5
+#end
+#selectmonster 2026 -- Ahiman Anakites
+  #incunrest 5
+#end
+
+-- [[EA Pangaea Sub-Block]]
+
+#selectnation 16
+  #name "EA Pangaea"
+  #era 2
+  #epithet "Copper Neil's Magic of Nature"
+  #descr "6 Turbo Researcher II
+          4 Research Reducer: Awaken the Worm that Walks
+          4 Research Reducer: Mass Regeneration
+          4 Research Reducer: Gaia's Blessing
+          4 Research Reducer: Storm of Thorns
+          4 Gem Production I: Nature
+          4 Affordable Recruit: Pan
+          1 Doing the Nasty: Seduction Dryads
+          1 Economic Pretender: Chthonic Cyclops
+          5 Back Soon: Chthonic Cyclops
+         -3 Inept Smiths
+         -2 Imprisoned"
+  #brief "Pangaea is a woodland realm of wild halfmen. Pangaea has stealth satyrs, flying harpies, strong centaurs, and raging minotaur warriors. Panii are powerful mages of nature and earth and are able to lure women into the wild."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 16
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Turbo Researcher II
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 16
+  #req_maxturn 3
+  #req_capital 1
+  #req_unique 1
+  #req_pop0ok
+  #com 5672
+  #msg "A grand sage desires the use of your labratory in exchange for what he knows."
+  #nolog
+#end
+
+-- Research Reducer: Awaken the Worm that Walks
+#newspell
+  #copyspell 1045
+  #researchlevel 5
+  #restricted 16
+#end
+
+-- Research Reducer: Mass Regeneration
+#newspell
+  #copyspell 964
+  #researchlevel 5
+  #restricted 16
+#end
+
+-- Research Reducer: Gaia's Blessing
+#newspell
+  #copyspell 971
+  #researchlevel 6
+  #restricted 16
+#end
+
+-- Research Reducer: Storm of Thorns
+#newspell
+  #copyspell 573
+  #researchlevel 4
+  #restricted 16
+#end
+
+-- Gem Production I: Nature
+#newsite
+  #name "Pangaea's Boon"
+  #rarity 5
+  #path 6
+  #gems 6 4
+#end
+#selectnation 16
+  #startsite "Pangaea's Boon"
+#end
+
+-- Affordable Recruit: Pan
+#selectmonster 1535
+  #gcost 211
+#end
+
+-- Doing the Nasty: Seduction Dryads
+#selectmonster 2187
+  #seduce 11
+#end
+
+-- Economic Pretender: Chthonic Cyclops
+-- Back Soon: Chthonic Cyclops
+#selectnation 16
+  #addgod 5670
+  #delgod 156
+#end
+
+-- Inept Smiths
+#selectmonster 231 -- Centaur Hierophant
+  #fixforgebonus -1
+#end
+#selectmonster 2158 -- Centauride Hierophantide
+  #fixforgebonus -1
+#end
+#selectmonster 2187 -- Dryad
+  #fixforgebonus -1
+#end
+#selectmonster 2487 -- Dryad Mother
+  #fixforgebonus -1
+#end
+#selectmonster 1535 -- Pan
+  #fixforgebonus -1
+#end
+
+-- Poorly Trained
+#selectnation 16
+  #defcom1 30
+  #defunit1 30
+  #defunit1b 30
+  #defunit1c 30
+  #defcom2 30
+  #defunit2 30
+  #defunit2b 30
+#end
+
+-- [[MA Ermor Sub-Block]]
+
+#selectnation 44
+  #name "MA Ermor"
+  #era 2
+  #epithet "The Lizard Kings of Last"
+  #descr "3 Cost Reducer: Revive Dusk Elder
+          2 Power Focus I: Dusk Elder 25% EASB
+          2 Item Research: Skull Mentors
+          7 Sacred Buff II: Attack  
+          3 Magic Pact: Lizard King
+          1 Gem Whore-der: Ermor
+          3 Masonary Mastery
+          1 Exemplary Designers
+         -2 Imprisoned
+         -2 Poorly Trained Militia
+         -3 Obtuse"
+  #brief "Ermor was a human empire that was corrupted and fell into darkness. Now Ermor is a land of the dead. Skeletal legions march from the Ashen Empire to conquer the lands of the living."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 44
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Cost Reducer: Revive Dusk Elder
+#selectspell 299
+  #fatiguecost 1600
+#end
+
+-- Power Focus I: Dusk Elder 25% EASB
+#selectmonster 253
+  #custommagic 19712 25
+  #researchbonus -1
+#end
+
+-- Item Research: Skull Mentors
+#newitem
+  #copyitem 319
+  #name "Ermorian Mentor"
+  #descr "This cranium of a dead augur elder will aid its owner in the study of magic."
+  #constlevel 2
+  #restricted 44
+#end
+
+-- Sacred Buff II: Attack
+#newsite
+  #name "Ermor's Boon"
+  #rarity 5
+  #path 5
+  #blessatt 3
+#end
+#selectnation 44
+  #startsite "Ermor's Boon"
+#end
+
+-- Gem Whore-der: Ermor
+#newsite
+  #name "C'tis' Gift"
+  #rarity 5
+  #path 6
+  #gems 5 8
+#end
+#selectnation 44
+  #startsite "C'tis' Gift"
+#end
+#selectsite "The Temple Marsh"
+  #clear
+  #homemon 164
+  #homecom 2238
+  #homemon 2236
+  #homemon 2237
+#end
+
+-- Magic Pact: Lizard King
+#selectnation 44
+  #addreccom 5675
+#end
+
+-- Masonary Mastery
+#selectnation 44
+  #fortcost -25
+#end
+
+-- Exemplimary Designers
+#selectnation 44
+  #fortera 3
+  #homefort 14
+#end
+
+-- Poorly Trained Militia
+#selectnation 44
+  #defcom1 30
+  #defunit1 30
+  #defunit1b 30
+  #defcom2 30
+  #defunit2 30
+#end
+
+-- Obtuse
+#selectnation 44
+  #labcost 750
+#end
+
+-- Imprisoned
+#newevent
+  #rarity 5
+  #req_fornation 44
+  #req_pop0ok
+  #nation -2
+  #req_targgod 1
+  #req_mydominion 0
+  #assassin 5671
+  #msg "Attacked for going outside dominion."
+  #notext
+  #nolog
+#end
+
+-- [[MA C'tis Sub-Block]]
+
+#selectnation 57
+  #name "MA C'tis"
+  #era 2
+  #epithet "Fathom Seer's Sobek Surprise"
+  #descr "4 Capitolism I
+          3 Rich in Minerals I
+          4 Gem Production I: Death
+          1 Tower of Holy Power
+          2 Sacred Resistance I: Fire Shock
+          6 Conscription II: 4800g Sobek Sacred Gaurd
+          1 Fuadalism: C'tis
+          1 Life Drain: C'tis
+         -3 Inept Forgers
+         -3 Weak Faith"
+  #brief "C'tis is an ancient kingdom of lizardmen. They do not use calvery or archers, but use poison slingers instead. C'tis has powerful priest-kings. The Dominion of C'tis causes lands to turn into rotting marshlands that cause disease in everyone who is not cold-blooded or not accustomed to swamps and marshes. The lizards dislike cold provinces."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 57
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Capitolism I
+-- Rich in Minerals I
+-- Gem Production I: Death
+-- Tower of Holy Power
+-- Sacred Resistance I: Fire Shock
+#newevent
+  #req_maxturn 2
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_fornation 57
+  #req_capital 1
+  #req_pop0ok
+  #msg "Baby Boom"
+  #incpop 320
+  #nolog
+#end
+#newsite
+  #name "C'tis' Boon"
+  #rarity 5
+  #path 6
+  #gold 110
+  #res 120
+  #gems 5 4
+  #dominion 2
+  #blessfireres 5
+  #blessshockres 5
+#end
+#selectnation 57
+  #startsite "C'tis' Boon"
+#end
+
+-- Conscription II: 4800g Sobek Sacred Gaurd
+#newevent
+  #req_maxturn 18
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 17
+  #req_fornation 57
+  #req_owncapital 1
+  #req_pop0ok
+  #12d6units 2237 -- Sobek Sacred Guard
+  #msg "An army has answered the call to arms!"
+  #nolog
+#end
+#newevent
+  #req_maxturn 18
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 17
+  #req_fornation 57
+  #req_owncapital 1
+  #req_pop0ok
+  #12d6units 2237 -- Sobek Sacred Guard
+  #notext
+  #nolog
+#end
+
+-- Fuadalism: C'tis
+#selectnation 57
+  #nationinc 11
+#end
+#selectnation 44
+  #nationinc -8
+#end
+
+-- Life Drain: C'tis
+#newevent
+  #rarity 0
+  #req_fornation 57
+  #req_pop0ok
+  #req_rare 75
+  #notext
+  #nolog
+  #decscale 3
+#end
+#newevent
+  #rarity 0
+  #req_fornation 44
+  #req_pop0ok
+  #req_rare 50
+  #notext
+  #nolog
+  #incscale 3
+#end
+
+-- Weak Faith
+#selectnation 57
+  #templecost 600
+#end
+
+-- Inept Forgers
+#selectmonster 502 -- Emposioner
+  #fixforgebonus -1
+#end
+#selectmonster 937 -- Marshmaster
+  #fixforgebonus -1
+#end
+#selectmonster 170 -- Shaman
+  #fixforgebonus -1
+#end
