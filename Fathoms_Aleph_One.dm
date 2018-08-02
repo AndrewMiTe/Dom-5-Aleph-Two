@@ -13545,6 +13545,10 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #def 9
   #mr  8
   #mor 7
+  #gcost 16
+  #rpcost 38
+  #clearweapons
+  #weapon 1725
   #firstshape 1279
 #end
 
