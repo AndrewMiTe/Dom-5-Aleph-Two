@@ -13975,9 +13975,10 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Double Cast: Mind Burn
-#newspell
+#selectspell 2000
   #copyspell 989
   #name "Double Mind Burn"
+  #descr "The caster tries to overload the mind of the target. If successful, the target experiences overwhelming pain as his mind is damaged. The spell is very accurate and always finds its target."
   #nreff 2
   #fatiguecost 40
   #casttime 150
@@ -13985,9 +13986,10 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Double Cast: Astral Fires
-#newspell
+#selectspell 2001
   #copyspell 561
   #name "Double Astral Fires"
+  #descr "Astral fires consume the essence of materials as ordinary fires comsune wood. Even stones will burn with hazy blue flames characteristic of these otherworldly fires. This is the only fire that will burn underwater." 
   #nreff 2
   #fatiguecost 40
   #casttime 150
@@ -14188,14 +14190,14 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Research Reducer: Tartarian Gate
-#newspell
+#selectspell 2002
   #copyspell 849
   #researchlevel 6
   #restricted 96
 #end
 
 -- Research Reducer: Well of Misery
-#newspell
+#selectspell 2003
   #copyspell 837
   #researchlevel 5
   #restricted 96
@@ -14227,7 +14229,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Eldritch Espionage: Contact Onaqui
-#newspell
+#selectspell 2004
   #copyspell 401
   #restricted 96
 #end
@@ -14568,7 +14570,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Research Reducer: Bane Fire
-#newspell
+#selectspell 2005
   #copyspell 564
   #researchlevel 3
   #restricted 5
@@ -15449,28 +15451,28 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Research Reducer: Awaken the Worm that Walks
-#newspell
+#selectspell 2006
   #copyspell 1045
   #researchlevel 5
   #restricted 16
 #end
 
 -- Research Reducer: Mass Regeneration
-#newspell
+#selectspell 2007
   #copyspell 964
   #researchlevel 5
   #restricted 16
 #end
 
 -- Research Reducer: Gaia's Blessing
-#newspell
+#selectspell 2008
   #copyspell 971
   #researchlevel 6
   #restricted 16
 #end
 
 -- Research Reducer: Storm of Thorns
-#newspell
+#selectspell 2009
   #copyspell 573
   #researchlevel 4
   #restricted 16
