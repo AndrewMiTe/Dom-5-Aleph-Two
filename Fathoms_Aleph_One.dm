@@ -13585,10 +13585,15 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #selectmonster 5683 
   #copystats 428
   #copyspr 428
+  #gcost 120
+#end
+#selectmonster 5684 
+  #copystats 428
+  #copyspr 428
 #end
 
 -- Bravery II: Gladiator (for Pythium)
-#newmonster 5684
+#newmonster 5685
   #copystats 12
   #copyspr 12
   #str 10
@@ -13599,7 +13604,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Bravery I: Triarius (for Pythium)
-#newmonster 5685
+#newmonster 5686
   #copystats 688
   #copyspr 688
   #str 8
@@ -13613,7 +13618,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 -- Economic Pretender: Angelic Lord (for Pythium)
 -- Strange Body: Arm Arm Angelic Lord
 -- Pretender Power: Fear
-#newmonster 5686
+#newmonster 5687
   #copystats 5054
   #copyspr 5054
   #homerealm 0
@@ -13623,17 +13628,17 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Item Find I: 1 Winged Helmet; 1 Thistle Mace (for Pythium)
-#newmonster 5687
+#newmonster 5688
   #copystats 7
   #copyspr 7
   #startitem 180
 #end
-#newmonster 5688
+#newmonster 5689
   #copystats 7
   #copyspr 7
   #startitem 55
 #end
-#newmonster 5689
+#newmonster 5690
   #copystats 7
   #copyspr 7
   #startitem 211
@@ -13868,26 +13873,52 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Double Speed: Assassin
-#selectmonster 428
-  #gcost 120
-#end
 #newevent
   #rarity 5
-  #req_targmnr 428
+  #req_targmnr 5683
   #notext
   #nation 46
-  #2com 5683
-  #killcom 428
+  #2com 5684
+  #killcom 5683
   #nolog
 #end
 #newevent
   #rarity 5
-  #req_targmnr 428
+  #req_targmnr 5683
   #notext
   #nation 46
-  #2com 5683
-  #killcom 428
+  #2com 5684
+  #killcom 5683
   #nolog
+#end
+#selectnation 46
+  #clearrec
+  #addreccom 426 -- Scout
+  #addreccom 5683 -- Assassin
+  #addreccom 683 -- Centurian
+  #addreccom 1385 -- Legatus Legionis
+  #addreccom 6 -- Emerald Lord
+  #addreccom 5 -- Serpant Lord
+  #addreccom 52 -- Battle Deacon
+  #addreccom 43 -- Theurg Acolyte
+  #addreccom 42 -- Theurg
+  #addreccom 41 -- Arch Theurg
+  #addreccom 296 -- Hydra Tamer
+  #addrecunit 50 -- Slinger
+  #addrecunit 684 -- Velite
+  #addrecunit 685 -- Alae Legionnaire
+  #addrecunit 686 -- Hastatus
+  #addrecunit 687 -- Principe
+  #addrecunit 688 -- Triarus
+  #addrecunit 7 -- Emerald Guard
+  #addrecunit 689 -- Standard
+  #addrecunit 3 -- Serpant Cataphract
+  #addrecunit 11 -- Retairius
+  #addrecunit 12 -- Gladiator
+  #addrecunit 538 -- Theurg Communicant
+  #addrecunit 51 -- Battle Vestal
+  #addrecunit 1840 -- Hydra Hatchling
+  #addrecunit 1831 -- Hydra
 #end
 
 -- Bravery II: Gladiator
@@ -13899,7 +13930,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #mr  13
   #ap  13
   #woundfend 99
-  #secondshape 5684 
+  #secondshape 5685 
 #end
 
 -- Bravery I: Triarius
@@ -13911,7 +13942,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #mr  13
   #ap  15
   #woundfend 99
-  #secondshape 5685 
+  #secondshape 5686 
 #end
 
 -- Forever Young: Arch Theurg; Theurg; Triarius
@@ -14008,7 +14039,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 -- Strange Body: Arm Arm Angelic Lord
 -- Pretender Power: Fear Angelic Lord
 #selectnation 46
-  #addgod 5686
+  #addgod 5687
   #delgod 5054
 #end  
 
@@ -14022,7 +14053,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #req_fornation 46
   #req_owncapital 1
   #req_pop0ok
-  #com 5687
+  #com 5690
   #com 5688
   #com 5689
   #msg "The treasury door has been unsealed! The guards present to you the contents. Take the items now, before theives and assassins come for them!"
@@ -14035,7 +14066,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #req_fornation 46
   #req_owncapital 1
   #req_pop0ok
-  #killcom 5687
+  #killcom 5690
   #killcom 5688
   #killcom 5689
   #msg "The guards who presented the sealed treasures have been granted retirement. The secret the magical items' existance is now secure."
