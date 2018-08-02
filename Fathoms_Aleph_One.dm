@@ -14053,9 +14053,9 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #req_fornation 46
   #req_owncapital 1
   #req_pop0ok
-  #com 5690
   #com 5688
   #com 5689
+  #com 5690
   #msg "The treasury door has been unsealed! The guards present to you the contents. Take the items now, before theives and assassins come for them!"
   #nolog
 #end
@@ -14066,10 +14066,10 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #req_fornation 46
   #req_owncapital 1
   #req_pop0ok
-  #killcom 5690
   #killcom 5688
   #killcom 5689
-  #msg "The guards who presented the sealed treasures have been granted retirement. The secret the magical items' existance is now secure."
+  #killcom 5690
+  #msg "The guards who presented the sealed treasures have been granted retirement. The secret of the magical items' existance is now secure."
   #nolog
 #end
 
