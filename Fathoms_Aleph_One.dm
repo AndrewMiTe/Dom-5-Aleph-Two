@@ -13682,6 +13682,151 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 
 -- [[MA Pythium Sub-Block]]
 
+#selectnation 75
+  #name "MA Pelagia"
+  #era 2
+  #epithet "Demise by Knights from the Deeps"
+  #descr "2 Amphibous: Knight of the Deeps; Triton King; Pearl Mage
+          3 Pre-Trained: Knight of the Deeps
+          10 Divergent Faith: Knight of the Deeps
+          5 Eldritch Corruption: Water Astral
+          2 Power Focus I: Pearl Mage 25% WS
+         -1 Hertical Texts
+         -3 Wildings
+         -2 Imprisoned"
+  #brief "Pelagia is an underwater realm of Tritons and mermen. Tritons are unable to leave the sea, but mermen can shed their tails and walk on dry land. In recent times Pelagia has started to use bronze armor. Both races have mages, but only the mermen mages can leave the sea."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 75
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Amphibous: Knight of the Deeps; Triton King; Pearl Mage
+#selectmonster 1059 -- Knight of the Deeps
+  #clearspec
+  #holy
+  #pooramphibian
+  #heal
+#end
+#selectmonster 1088 -- Triton King
+  #clearspec
+  #holy
+  #pooramphibian
+  #makepearls 4
+  #domsummon 1058
+#end
+#selectmonster 2423 -- Pearl Mage
+  #pooramphibian
+  #makepearls 3
+#end
+
+-- Pre-Trained: Knight of the Deeps
+#selectmonster 1059
+  #rpcost 33
+#end
+
+-- Divergent Faith: Knight of the Deeps
+#selectmonster 1059
+  #gcost 80
+#end
+#selectnation 75
+  #addrecunit 1059
+#end
+#selectsite "Palace of Pearls"
+  #clear
+  #homecom 1061 -- Triton Prince
+  #homecom 1088 -- Triton King
+  #homecom 2865 -- Conqueror of the Closed Realm
+  #homemon 2863 -- Champion of the Closed Realm
+  #gems 2 4
+  #gems 6 1
+#end
+
+-- Eldritch Corruption: Water Astral
+#selectmonster 1415 -- Pelagian Mermage
+  #clearmagic
+  #magicskill 4 1
+  #custommagic 11520 100
+#end
+#selectmonster 2823 -- Pelagian Mystic
+  #clearmagic
+  #magicskill 1 1
+  #magicskill 3 1
+  #magicskill 4 1
+  #custommagic 3840 100
+#end
+#selectmonster 2423 -- Pearl Mage
+  #clearmagic
+  #magicskill 2 1
+  #magicskill 4 2
+  #custommagic 11008 100
+#end
+#selectmonster 1417 -- Amber Clan Mage
+  #clearmagic
+  #magicskill 0 1
+  #magicskill 4 2
+  #custommagic 11264 100
+#end
+#selectmonster 2865 -- Conqueror of the Closed Realm
+  #clearmagic
+  #magicskill 1792 100
+#end
+#selectmonster 1088 -- Triton King
+  #clearmagic
+  #magicskill 4 4
+  #custommagic 8960 100
+  #custommagic 8960 100
+  #custommagic 11008 10
+#end
+
+-- Power Focus I: Pearl Mage 25% WS
+#selectmonster 2423
+  #custommagic 2560 25
+  #researchbonus -1
+  #gcost 175
+#end
+
+-- Hertical Texts
+#selectmonster 1088 -- Triton King
+  #researchbonus 1
+  #heretic 1
+  #gcost 390
+#end
+
+-- Wildings
+#selectmonster 1059 -- Knight of the Deeps
+  #incunrest 5
+#end
+#selectmonster 2863 -- Champion of the Closed Realm
+  #incunrest 5
+#end
+
+-- Imprisoned
+#newevent
+  #rarity 5
+  #req_fornation 75
+  #req_pop0ok
+  #nation -2
+  #req_targgod 1
+  #req_mydominion 0
+  #assassin 5671
+  #msg "Attacked for going outside dominion."
+  #notext
+  #nolog
+#end
+
+-- [[MA Pythium Sub-Block]]
+
 #selectnation 46
   #name "MA Pythium"
   #era 2
