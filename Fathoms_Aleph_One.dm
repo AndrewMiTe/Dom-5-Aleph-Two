@@ -15511,7 +15511,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 
 -- Power Focus VI: Onaqui 250% D
 #selectmonster 2736
-  #magicskill 4 5
+  #magicskill 5 4
   #custommagic 4096 60 
 #end
 
