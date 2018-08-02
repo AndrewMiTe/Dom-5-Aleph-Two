@@ -13648,6 +13648,53 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #startitem 211
 #end
 
+-- Economic Pretender: Tetrachire (for Phaeacia)
+-- Pretender Offenses: Attack Strength Tetrachire
+-- Pretender Defenses: Base Prot %HP Tetrachire
+-- Strange Body: Misc Misc Tetrachire
+#newmonster 5691
+  #copystats 4985
+  #copyspr 4985
+  #gcost 180
+  #att 20
+  #str 40
+  #prot 17
+  #hp 144
+  #itemslots 32158
+#end
+
+-- Item Find I: 1 Kithaironic Lion Pelt; 2 Horned Helmet; 1 Ring of Regeneration; 1 Boots of the Messenger; 1 Ring of Water Breathing; 1 Frost Brand (for Phaeacia)
+#newmonster 5692
+  #copystats 3165
+  #copyspr 3165
+  #startitem 211
+#end
+#newmonster 5693
+  #copystats 3165
+  #copyspr 3165
+  #startitem 176
+#end
+#newmonster 5694
+  #copystats 3165
+  #copyspr 3165
+  #startitem 326
+#end
+#newmonster 5695
+  #copystats 3165
+  #copyspr 3165
+  #startitem 254
+#end
+#newmonster 5696
+  #copystats 3165
+  #copyspr 3165
+  #startitem 279
+#end
+#newmonster 5697
+  #copystats 3165
+  #copyspr 3165
+  #startitem 14
+#end
+
 -- [[New Weapons Sub-Block]] {1725}
 
 #newweapon 1725
@@ -13687,6 +13734,247 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #killcom 5669
   #msg "The blessings of the previous pantokrator have collapsed."
   #nolog
+#end
+
+-- [[MA Phaeacia Sub-Block]]
+
+#selectnation 70
+  #name "MA Phaeacia"
+  #era 2
+  #epithet "Nasajin's Terrible Tetrachire"
+  #descr "1 Economic Pretender: Tetrachire
+          2 Pretender Offenses: Attack Strength Tetrachire
+          3 Pretender Defenses: Base Prot %HP Tetrachire
+          1 Strange Body: Misc Misc Tetrachire
+          2 Anoint: Colossi Weaver; Colossi Storm Captain; Phaeacian Captain
+          7 Eldritch Corruption: Water Death
+          8 Power Focus IV: Colossi Queen: +250% D
+          4 Master Smith: Colossi Weaver
+          4 Gem Production I: Death
+          3 Item Find I: 1 Kithaironic Lion Pelt; 2 Horned Helmet; 1 Ring of Regeneration; 1 Boots of the Messenger; 1 Ring of Water Breathing; 1 Frost Brand
+          1 Exemplary Designers
+         -1 Heretical Texts
+         -2 Crafted Commanders
+         -1 Wildlings"
+  #brief "Phaeacia is an island queendom of half-giant sailors and tradesmen. Their fabled Dark Ships traverse the seas without oars or captians."
+#end
+
+-- Warden protects City
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 70
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 5669
+  #com 5669
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Economic Pretender: Tetrachire
+-- Pretender Offenses: Attack Strength Tetrachire
+-- Pretender Defenses: Base Prot %HP Tetrachire
+-- Strange Body: Misc Misc Tetrachire
+#selectnation 70
+  #addgod 5691
+  #delgod 4985
+#end
+
+-- Anoint: Colossi Weaver; Colossi Storm Captain; Phaeacian Captain
+#selectmonster 3155 -- Colossi Weaver
+  #holy
+  #gcost 135
+#end
+#selectmonster 3156 -- Colossi Storm Captian
+  #holy
+  #gcost 185
+#end
+#selectmonster 3154 -- Phaeacian Captain
+  #holy
+  #gcost 60
+#end
+
+-- Eldritch Corruption: Water Death
+#selectmonster 3151 -- Mage Pilot
+  #clearmagic
+  #magicskill 1 1
+  #magicskill 5 1
+#end
+#selectmonster 3155 -- Colossi Weaver
+  #clearmagic
+  #magicskill 1 1
+  #magicskill 4 1
+  #custommagic 7552 100
+#end
+#selectmonster 3156 -- Colossi Storm Captian
+  #clearmagic
+  #magicskill 1 2
+  #magicskill 5 1
+#end
+#selectmonster 3157 -- Colossi Queen
+  #clearmagic
+  #magicskill 1 2
+  #magicskill 4 1
+  #magicskill 5 2
+  #magicskill 8 2
+  #custommagic 6528 100
+  #custommagic 6528 10
+#end
+#selectmonster 3158 -- Prince Consort
+  #clearmagic
+  #magicskill 0 1
+  #magicskill 1 3
+  #magicskill 5 2
+  #magicskill 8 1
+  #custommagic 5504 100
+  #custommagic 5504 10
+#end
+#selectmonster 3152 -- Wind Caller
+  #clearmagic
+  #magicskill 1 2
+  #magicskill 5 1
+  #custommagic 6400 100
+#end
+
+-- Power Focus IV: Colossi Queen: +250% D
+#selectmonster 3157
+  #magicskill 5 4
+  #custommagic 4096 50
+  #researchbonus -4
+  #gcost 335
+#end
+
+-- Master Smith: Colossi Weaver
+#selectmonster 3155
+  #fixforgebonus 2
+#end
+
+-- Gem Production I: Death
+#newsite
+  #name "Paeacia's Boon"
+  #rarity 5
+  #path 5
+  #gems 5 4
+#end
+#selectnation 70
+  #startsite "Paeacia's Boon"
+#end
+
+-- Item Find I: 1 Kithaironic Lion Pelt; 2 Horned Helmet; 1 Ring of Regeneration; 1 Boots of the Messenger; 1 Ring of Water Breathing; 1 Frost Brand
+#newevent
+  #req_maxturn 6
+  #req_unique 1
+  #rarity 5
+  #nation -2
+  #req_turn 5
+  #req_fornation 70
+  #req_owncapital 1
+  #req_pop0ok
+  #com 5692
+  #com 5693
+  #com 5693
+  #com 5694
+  #com 5695
+  #com 5696
+  #com 5697
+  #msg "The treasury door has been unsealed! The guards present to you the contents. Take the items now, before theives and assassins come for them!"
+  #nolog
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_turn 6
+  #req_maxturn 7
+  #req_unique 1
+  #req_fornation 70
+  #req_owncapital 1
+  #req_pop0ok
+  #killcom 5692
+  #killcom 5693
+  #killcom 5693
+  #killcom 5694
+  #killcom 5695
+  #killcom 5696
+  #killcom 5697
+  #msg "The guards who presented the sealed treasures have been granted retirement. The secret of the magical items' existance is now secure."
+  #nolog
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_turn 6
+  #req_fornation 70
+  #req_pop0ok
+  #killcom 5692
+  #killcom 5693
+  #killcom 5693
+  #killcom 5694
+  #killcom 5695
+  #killcom 5696
+  #killcom 5697
+  #notext
+  #nolog
+#end
+
+-- Exemplary Designers
+#selectnation 70
+  #fortera 3
+  #homefort 14
+#end
+
+-- Heretical Texts
+#selectmonster 3157 -- Colossi Queen
+  #researchbonus -3
+  #heretic 1
+#end
+#selectmonster 3158 -- Prince Consort
+  #researchbonus +1
+  #heretic 1
+#end
+
+-- Crafted Commanders
+#selectmonster 3153 -- Phaeacian Scout
+  #magicbeing
+  #noheal
+#end
+#selectmonster 3154 -- Phaeacian Captain
+  #magicbeing
+  #noheal
+#end
+#selectmonster 3166 -- Phaeacian Priest
+  #magicbeing
+  #noheal
+#end
+#selectmonster 3151 -- Mage Pilot
+  #magicbeing
+  #noheal
+#end
+#selectmonster 3155 -- Colossi Weaver
+  #magicbeing
+  #noheal
+#end
+#selectmonster 3156 -- Colossi Storm Captian
+  #magicbeing
+  #noheal
+#end
+#selectmonster 3157 -- Colossi Queen
+  #magicbeing
+  #noheal
+#end
+#selectmonster 3158 -- Prince Consort
+  #magicbeing
+  #noheal
+#end
+#selectmonster 3152 -- Wind Caller
+  #magicbeing
+  #noheal
+#end
+
+-- Wildlings
+#selectmonster 3159
+  #incunrest 5
 #end
 
 -- [[MA Pelagia Sub-Block]]
