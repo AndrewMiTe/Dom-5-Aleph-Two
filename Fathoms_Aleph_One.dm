@@ -14366,6 +14366,8 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #rarity 5
   #nation -2
   #req_turn 6
+  #req_maxturn 7
+  #req_unique 1
   #req_fornation 46
   #req_owncapital 1
   #req_pop0ok
@@ -14373,6 +14375,18 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #killcom 5689
   #killcom 5690
   #msg "The guards who presented the sealed treasures have been granted retirement. The secret of the magical items' existance is now secure."
+  #nolog
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_turn 6
+  #req_fornation 46
+  #req_pop0ok
+  #killcom 5688
+  #killcom 5689
+  #killcom 5690
+  #notext
   #nolog
 #end
 
