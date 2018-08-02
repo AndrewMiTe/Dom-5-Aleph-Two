@@ -13689,7 +13689,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #nolog
 #end
 
--- [[MA Pythium Sub-Block]]
+-- [[MA Pelagia Sub-Block]]
 
 #selectnation 75
   #name "MA Pelagia"
