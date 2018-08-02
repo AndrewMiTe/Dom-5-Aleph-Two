@@ -13895,6 +13895,15 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #killcom 5683
   #nolog
 #end
+#newevent
+  #rarity 5
+  #req_targmnr 5683
+  #notext
+  #nation 46
+  #2com 5684
+  #killcom 5683
+  #nolog
+#end
 #selectnation 46
   #clearrec
   #addreccom 426 -- Scout
@@ -14133,6 +14142,15 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 -- Double Speed: Jotun Scout
 #selectmonster 786
   #gcost 110
+#end
+#newevent
+  #rarity 5
+  #req_targmnr 786
+  #notext
+  #nation 96
+  #2com 5681
+  #killcom 786
+  #nolog
 #end
 #newevent
   #rarity 5
