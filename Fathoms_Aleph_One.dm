@@ -14076,7 +14076,8 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 #selectmonster 2865 -- Conqueror of the Closed Realm
   #clearmagic
-  #magicskill 1792 100
+  #magicskill 8 1
+  #custommagic 1792 100
 #end
 #selectmonster 1088 -- Triton King
   #clearmagic
