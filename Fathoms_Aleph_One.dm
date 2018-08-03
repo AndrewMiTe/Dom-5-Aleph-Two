@@ -14984,9 +14984,9 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #defcom2 30
   #defunit1 30
   #defunit1b 30
+  #defunit1c 30
   #defunit2 30
   #defunit2b 30
-  #defunit2c 30
 #end
 
 -- [[MA Marignon Sub-Block]]
