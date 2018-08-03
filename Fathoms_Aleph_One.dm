@@ -13862,13 +13862,13 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 
 -- Gem Production I: Death
 #newsite
-  #name "Paeacia's Boon"
+  #name "Phaeacia's Boon"
   #rarity 5
   #path 5
   #gems 5 4
 #end
 #selectnation 70
-  #startsite "Paeacia's Boon"
+  #startsite "Phaeacia's Boon"
 #end
 
 -- Item Find I: 1 Kithaironic Lion Pelt; 2 Horned Helmet; 1 Ring of Regeneration; 1 Boots of the Messenger; 1 Ring of Water Breathing; 1 Frost Brand
