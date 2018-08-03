@@ -15692,18 +15692,6 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Wildings
-#selectmonster 2029 -- Kohen
-  #incunrest 5
-#end
-#selectmonster 2027 -- Adon
-  #incunrest 5
-#end
-#selectmonster 2011 -- Zamzummite
-  #incunrest 5
-#end
-#selectmonster 2028 -- Talmai Elder
-  #incunrest 5
-#end
 #selectmonster 2025 -- Sheshai Anakites
   #incunrest 5
 #end
