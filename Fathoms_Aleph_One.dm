@@ -15728,7 +15728,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           1 Economic Pretender: Chthonic Cyclops
           5 Back Soon: Chthonic Cyclops
          -3 Inept Smiths
-         -2 Imprisoned"
+         -2 Poorly Trained Militia"
   #summary "Copper Neil's Build"
   #brief "Pangaea is a woodland realm of wild halfmen. Pangaea has stealth satyrs, flying harpies, strong centaurs, and raging minotaur warriors. Panii are powerful mages of nature and earth and are able to lure women into the wild."
 #end
@@ -15834,7 +15834,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #fixforgebonus -1
 #end
 
--- Poorly Trained
+-- Poorly Trained Militia
 #selectnation 16
   #defcom1 30
   #defunit1 30
