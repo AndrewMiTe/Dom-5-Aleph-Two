@@ -13695,6 +13695,13 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #startitem 14
 #end
 
+-- Wildings (for Xibalba)
+#newmonster 5698
+  #copystats 1357
+  #copyspr 1357
+  #incunrest 5
+#end
+
 -- [[New Weapons Sub-Block]] {1725}
 
 #newweapon 1725
@@ -15538,8 +15545,8 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #end
 
 -- Wildings
-#selectmonster 1357 -- Beast Bat
-  #incunrest 5
+#selectmonster 2736 -- Onaqui
+  #domsummon2 5698
 #end
 #selectmonster 2672 -- Sun Guide
   #incunrest 5
