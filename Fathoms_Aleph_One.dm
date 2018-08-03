@@ -13655,6 +13655,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #newmonster 5691
   #copystats 4985
   #copyspr 4985
+  #homerealm 0
   #gcost 180
   #att 20
   #str 40
