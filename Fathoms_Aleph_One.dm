@@ -13399,7 +13399,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 
 -- [[Aleph Block]]
 
--- [[New Monsters Sub-Block]] {5669-5681}
+-- [[New Monsters Sub-Block]] {5669-5698}
 
 -- Warden of Civilization
 #newmonster 5669
@@ -13763,6 +13763,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
          -1 Heretical Texts
          -2 Crafted Commanders
          -1 Wildlings"
+  #summary "Nasajin's Build"
   #brief "Phaeacia is an island queendom of half-giant sailors and tradesmen. Their fabled Dark Ships traverse the seas without oars or captians."
 #end
 
@@ -13998,6 +13999,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
          -1 Hertical Texts
          -3 Wildings
          -2 Imprisoned"
+  #summary "Demise's Build"
   #brief "Pelagia is an underwater realm of Tritons and mermen. Tritons are unable to leave the sea, but mermen can shed their tails and walk on dry land. In recent times Pelagia has started to use bronze armor. Both races have mages, but only the mermen mages can leave the sea."
 #end
 
@@ -14155,6 +14157,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           1 Exemplimary Designers
          -3 Inept Masons
          -3 Weak Faith"
+  #summary "Xma's Build"
   #brief "Pythium is a splinter empire that broke free from Ermor when it fell. Pythium uses legionnaires, but also has Serpant Cataphracts and Hydras. The Theurgs of Pythium are powerful priests and Astral mages. Pythium uses Theurgical communion to empower their mages in battles."
 #end
 
@@ -14434,6 +14437,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           4 Fast Cash II
          -4 Bloodthirsy Theurgicals
          -2 Poorly Trained Miltia"
+  #summary "unimaginable23's Build"
   #brief "Utgard is the home of the giants of the North. Jotuns are immune to the cold and dislike hot lands. With their numbers dwindling, the giants have allied with humans. They don't use cavalry or bows. The human Norns are versatile and powerful sorceresses and seeresses."
 #end
 
@@ -14603,6 +14607,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           4 Power Focus II: Harab Elder +100% FAWESDNB +20% S
          -3 Weak Faith
          -3 Inept Smiths"
+  #summary "Quiles' Build"
   #brief "Caelum is a mageocracy of winged mountain beings. The mages are skilled in Air, Earth, and Death magic. They also have Earth smiths capable of producing magic items with very few resources. Caelum has very skilled archers and trains mammoths."
 #end
 
@@ -14819,6 +14824,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
          -3 Isolationism
          -2 Imprisioned
          -2 Poorly Trained Militia"
+  #summary "Melfice Belmont's Build"
   #brief "An ancient human kingdom led by Philosophers, Acroscephale mainly uses heavy infantry, chariots, and flying Icarids. The Philosophers are skilled researchers. Oreiads, roaming mountian spirits, and Mystics skilled in Astral and Elemental magic give Arcoscephale great magical versatility. The priestesses of Arcoscephale can heal wounded soldiers."
 #end
 
@@ -15001,6 +15007,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
          -3 Weak Faith
          -2 Imprissoned
          -1 Wildlings"
+  #summary "The Red Zaku's Build"
   #brief "Marignon is a human kingdom based on religious zeal. Holy knights and inquisitors ride out to purge the world of enemy faiths. Marignon has powerful Fire and Astral mages and powerful priests."
 #end
 
@@ -15124,6 +15131,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           2 Enhanced Magic: Magicboost Stone Magus
           4 Capitalism I
          -6 Cursed: Cold"
+  #summary "Mechrite's Build (Teamed with Tarvil's LA Ragha)"
   #brief "Helheim is a nation of Vinir ruled by Hanged Kings guarding the entrance to Hel. Vanir can hide themselves with illusion. They utilize many unique troops, including flying Valkyries. The Hangadrotts are powerful Death and Air mages and The Svartalf are skilled in Earth and Death magic."
 #end
 
@@ -15279,6 +15287,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           5 Rich in Minerals II
           5 Eldritch Corruption: Fire Astral
          -6 Cursed: Cold"
+  #summary "Tarvil's Build (Teamed with Mechrite's EA Helheim)"
   #brief "Ragha is a dual kingdom of cold resistant and winged Airyas and heat resistant Turans. The mages are skilled in most paths except nature. Ragha has skilled archers and trains gryphon-riding Immortals."
 #end
 
@@ -15471,6 +15480,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           7 Sacred Buff II: Strength
          -3 Wildings
          -3 Isolationism"
+  #summary "Alany's Build"
   #brief "Cave dwelling bat people that once guided the sun on its night-time passage through their caves."
 #end
 
@@ -15594,6 +15604,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
          -2 Imprisoned
          -1 Heretical Texts
          -3 Wildings"
+  #summary "Exo Raven's Build (Teamed with Demise's MA Pelagia)"
   #brief "Ashdod is a wasteland inhabited by gaints. The giants have degenerated since earlier times and only in the Twin Cities live the Anakim of pure blood."
 #end
 
@@ -15717,6 +15728,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           5 Back Soon: Chthonic Cyclops
          -3 Inept Smiths
          -2 Imprisoned"
+  #summary "Copper Neil's Build"
   #brief "Pangaea is a woodland realm of wild halfmen. Pangaea has stealth satyrs, flying harpies, strong centaurs, and raging minotaur warriors. Panii are powerful mages of nature and earth and are able to lure women into the wild."
 #end
 
@@ -15837,7 +15849,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #selectnation 44
   #name "MA Ermor"
   #era 2
-  #epithet "The Lizard Kings of Last"
+  #epithet "The Lizard Necropriests of Last"
   #descr "3 Cost Reducer: Revive Dusk Elder
           2 Power Focus I: Dusk Elder 25% ES
           2 Item Research: Skull Mentors
@@ -15849,6 +15861,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
          -2 Imprisoned
          -2 Poorly Trained Militia
          -3 Obtuse"
+  #summary "Last's Build (Teamed with Fathom Seer's MA C'tis)"
   #brief "Ermor was a human empire that was corrupted and fell into darkness. Now Ermor is a land of the dead. Skeletal legions march from the Ashen Empire to conquer the lands of the living."
 #end
 
@@ -15975,6 +15988,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
           1 Life Drain: C'tis
          -3 Inept Forgers
          -3 Weak Faith"
+  #summary "Fathom Seer's Build (Teamed with Last's MA Ermor)"
   #brief "C'tis is an ancient kingdom of lizardmen. They do not use calvery or archers, but use poison slingers instead. C'tis has powerful priest-kings. The Dominion of C'tis causes lands to turn into rotting marshlands that cause disease in everyone who is not cold-blooded or not accustomed to swamps and marshes. The lizards dislike cold provinces."
 #end
 
