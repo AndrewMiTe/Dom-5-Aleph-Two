@@ -13617,6 +13617,8 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #def 10
   #mr  8
   #mor 8
+  #maxage 100
+  #older 0
   #firstshape 688
 #end
 
@@ -14276,7 +14278,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #startage 52
   #older 0
 #end
-#selectmonster 688
+#selectmonster 688 -- Triarius
   #maxage 100
   #older 0
 #end
