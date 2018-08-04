@@ -1964,6 +1964,7 @@ The blood of the Tuathas runs strong in his veins granting him innate magical po
 #fear 10
 #expertleader
 #batstartsum2 0
+#itemslots 7326 -- Aleph-Mod Fix
 #weapon 1841 -- Sword of Divine Fire
 #weapon 1841 -- Sword of Divine Fire
 #weapon 1842 -- Magic Lariat
@@ -14588,8 +14589,8 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #defcom1 30
   #defcom2 30
   #defunit1 30
-  #defunit2 30
   #defunit1b 30
+  #defunit2 30
 #end
 
 -- [[LA Caelum Sub-Block]]
