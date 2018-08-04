@@ -14112,6 +14112,11 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #heretic 1
   #gcost 390
 #end
+#selectmonster 2865 -- Conqueror of the Closed Realm
+  #researchbonus 1
+  #heretic 1
+  #gcost 130
+#end
 
 -- Wildings
 #selectmonster 1059 -- Knight of the Deeps
