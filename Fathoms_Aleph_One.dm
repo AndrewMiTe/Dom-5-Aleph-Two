@@ -14041,6 +14041,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 -- Pre-Trained: Knight of the Deeps
 #selectmonster 1059
   #rpcost 33
+  #rcost -11
 #end
 
 -- Divergent Faith: Knight of the Deeps
