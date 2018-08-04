@@ -13533,7 +13533,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #copystats 607
   #copyspr 607
   #homerealm 0
-  #gcost 106
+  #gcost 108
   #inspiringres 3
 #end
 
@@ -15079,6 +15079,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
 #selectnation 50
   #addgod 5678
   #delgod 607
+  #cheapgod20 5678
 #end
 
 -- Academically Minded
