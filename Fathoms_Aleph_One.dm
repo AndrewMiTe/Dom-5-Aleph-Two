@@ -13558,6 +13558,7 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #copystats 5027
   #copyspr 5027
   #homerealm 0
+  #name "Wisdom Emperor"
   #descr "The Wisdom Kings or Guardian Kings are divine warriors created to protect the Tathagatas. Whereas the Tathagatas represent pure concepts and teach through compassion, Wisdom Kings are the embodiment of the wheel of injunction and teach through fear, shocking nonbelievers into faith. They are wrathful manifestations of the divine, many-armed and wreathed in flames."
   #gcost 228
 #end
@@ -14641,6 +14642,8 @@ The Worm Lord has learnt all of magic that it can and now there is nothing left 
   #rpcost 38
   #clearweapons
   #weapon 1725
+  #spr1 "./Fathoms_Aleph_One/IronCrow.tga"
+  #spr2 "./Fathoms_Aleph_One/IronCrow2.tga"
 #end
 
 -- Bravery I: Iron Crow
