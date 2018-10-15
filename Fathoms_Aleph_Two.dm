@@ -85954,6 +85954,9 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #newspell 2731 -- Argatha's Ancient The Underworld Dragon
 #end
 
+#newspell 2732 -- Xibalba's Stolen Ancient Contact Boar of Carnutes
+#end
+
 #newitem 900 -- Jutonheim's No Drop Cursed Skull Talisman
 #end
 
@@ -86769,20 +86772,144 @@ end
   #startsite "Xibalba's Boon"
 #end
 
--- Brutish Giant Killer Scorpion
--- Tireless Hanged Mariner Chilan
 -- Living Corrupted (D<->S) Nation
--- Stolen Summon Urisk
--- Ancient Primal Contact Onaqui
--- Stolen Ancient Contact Boar of Carnutes
--- Anoint Ah Itz
--- Infamous Silent Batab
--- Stolen Spell Summon Jann Tribe
 -- Diverse (FASN) Ah K'in
+#selectmonster 2677 -- An K'in
+  #clearmagic
+  #magicskill 0 1
+  #magicskill 8 1
+  #custommagic 19456 100
+  #custommagic 10624 50
+  #gcost 110
+#end
+#selectmonster 2678 -- Chilan
+  #clearmagic
+  #magicskill 3 1
+  #magicskill 4 1
+  #magicskill 8 1
+#end
+#selectmonster 2680 -- Ah Itz
+  #clearmagic
+  #magicskill 4 1
+  #magicskill 7 1
+  #custommagic 19712 100
+#end
+#selectmonster 2681 -- Camazotz
+  #clearmagic
+  #magicskill 4 2
+  #magicskill 7 1
+  #custommagic 19712 100
+#end
+#selectmonster 2684 -- An K'in Kan Ek'
+  #clearmagic
+  #magicskill 0 2
+  #magicskill 3 1
+  #magicskill 4 1
+  #magicskill 8 2
+  #custommagic 19456 100
+#end
+#selectmonster 2736 -- Onaqui
+  #clearmagic
+  #magicskill 4 3
+  #magicskill 6 1
+  #magicskill 7 4
+  #magicskill 8 2
+  #custommagic 26752 100
+  #custommagic 26752 10
+#end
+
+-- Brutish Giant Killer Scorpion
+#selectweapon 1003
+  #copyweapon 355
+  #name "Giant Slaying Sting"
+  #dt_large
+#end
+#selectmonster 2688
+  #hp 11
+  #str 8
+  #mr 1
+  #clearweapons
+  #weapon 1003
+  #gcost 5
+#end
+
+-- Tireless Hanged Mariner Chilan
+#selectmonster 2678
+  #reinvigoration 2
+  #researchbonus 6
+  #startingaff 524288
+  #pooramphibian
+  #gcost 100
+#end
+
+-- Stolen Summon Urisk
+#selectspell "Summon Urisk"
+  #restricted 31
+  #researchlevel 5
+#end
+
+-- Ancient Primal Contact Onaqui
+#selectspell 401
+  #researchlevel 5
+  #pathlevel 0 5
+#end
+
+-- Stolen Ancient Contact Boar of Carnutes
+#selectspell 2732
+  #copyspell "Contact Boar of Carnutes"
+  #name "Stolen Boar of Carnutes"
+  #researchlevel 6
+  #pathlevel 0 2
+  #restricted 31
+#end
+
+-- Anoint Ah Itz
+#selectmonster 2680
+  #holy
+  #gcost 120
+#end
+
+-- Infamous Silent Batab
+#selectmonster 2674
+  #att 12
+  #def 11
+  #pre 5
+  #ambidextrous 1
+  #incunrest 50
+  #pillagebonus 10
+  #nohof
+#end
+
+-- Stolen Spell Summon Jann Tribe
+#selectspell "Summon Jann Tribe"
+  #restricted 31
+  #researchlevel 4
+#end
+
 -- Hanged Meticulous Onaqui
+#selectmonster 2736
+  #researchbonus 17
+  #startingaff 524288
+  #gcost 565
+#end
+
 -- Ancient Summon Balam
+#selectspell 413
+  #researchlevel 6
+  #pathlevel 0 5
+#end
+
 -- Ancient The Obsidian Butterfly
+#selectspell "The Obsidian Butterfly"
+  #researchlevel 7
+  #pathlevel 0 5
+#end
+
 -- Ancient Summon Chaac
+#selectspell 414
+  #researchlevel 7
+  #pathlevel 0 5
+#end
 
 -- [[MA ULM BLOCK]]
 
@@ -86931,7 +87058,7 @@ end
   #school -1
 #end
 #selectspell "Contact Boar of Carnutes"
-  #nextspell "Contact Extra Boar of Carnutes"
+  #nextspell 2724
   #fatiguecost 1400
 #end
 
