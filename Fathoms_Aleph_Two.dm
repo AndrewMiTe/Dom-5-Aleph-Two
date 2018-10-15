@@ -86171,17 +86171,9 @@ end
 
 -- Brutish Giant Slayer Vaetti
 #selectweapon 1000
+  #copyweapon 1
   #name "Vaetti Equalizer"
-  #dmg 3
-  #nratt 1
-  #att 0
-  #def 0
-  #len 3
-  #sound 12
-  #rcost 1
   #dt_large
-  #pierce
-  #ironweapon
 #end
 #selectmonster 541
   #hp 14
