@@ -86081,7 +86081,7 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #selectnation 61
   #name "MA Jotunheim"
   #era 1
-  #epithet "Fathom Seer's Goblin Revolution"
+  #epithet "Fathom's Goblin Revolution"
   #summary "Fathom Seer's Build (Teamed with Last's MA Caelum)"
   #descr "Advanced Trade Nation Jotunheim
           Trade Nation Caelum
@@ -86791,7 +86791,7 @@ end
   #era 1
   #fortera 2
   #epithet "Anwyl"
-  #summary "Anwyl's Build"
+  #summary "Lucienne d'Anwyl's Build"
 #end
 
 -- Ancient Guardian
