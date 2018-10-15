@@ -86718,6 +86718,72 @@ end
   #path 1 1
 #end
 
+-- [[EA XIBALBA BLOCK]]
+
+#selectnation 31
+  #name "EA Xibalba"
+  #era 1
+  #epithet "unimaginable's Free Spawnation"
+  #summary "unimaginable23's Build"
+  #descr "Magical Province Multi-Buff
+          Brutish Giant Killer Scorpion
+          Tireless Hanged Mariner Chilan
+          Living Corrupted (D<->S) Nation
+          Stolen Summon Urisk
+          Ancient Primal Contact Onaqui
+          Stolen Ancient Contact Boar of Carnutes
+          Anoint Ah Itz
+          Infamous Silent Batab
+          Stolen Spell Summon Jann Tribe
+          Diverse (FASN) Ah K'in
+          Hanged Meticulous Onaqui
+          Ancient Summon Balam
+          Ancient The Obsidian Butterfly
+          Ancient Summon Chaac
+          Training Bonus Magic Site"
+#end
+
+-- Ancient Guardian
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pregame
+  #req_fornation 31
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 8000
+  #com 8000
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Training Bonus Magic Site
+#newsite
+  #name "Xibalba's Boon"
+  #rarity 5
+  #path 8
+  #xp 12
+#end
+#selectnation 31
+  #startsite "Xibalba's Boon"
+#end
+
+-- Brutish Giant Killer Scorpion
+-- Tireless Hanged Mariner Chilan
+-- Living Corrupted (D<->S) Nation
+-- Stolen Summon Urisk
+-- Ancient Primal Contact Onaqui
+-- Stolen Ancient Contact Boar of Carnutes
+-- Anoint Ah Itz
+-- Infamous Silent Batab
+-- Stolen Spell Summon Jann Tribe
+-- Diverse (FASN) Ah K'in
+-- Hanged Meticulous Onaqui
+-- Ancient Summon Balam
+-- Ancient The Obsidian Butterfly
+-- Ancient Summon Chaac
+
 -- [[MA ULM BLOCK]]
 
 #selectnation 49
