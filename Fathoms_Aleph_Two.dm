@@ -85942,13 +85942,28 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #newspell 2727 -- Pythium's Custom Primal Astral Fires (Wide-Area Disintegration Beam)
 #end
 
-#newspell 2728 -- Custom Unorthodox (Conjuration) Wish (Miracle)
+#newspell 2728 -- Pythium's Custom Unorthodox (Conjuration) Wish (Miracle)
 #end
 
-#newspell 2729 -- Custom Perverted (Air) Astral Fires (Wide-Area Disintegration Beam)
+#newspell 2729 -- Pythium's Custom Perverted (Air) Astral Fires (Wide-Area Disintegration Beam)
+#end
+
+#newspell 2730 -- Argatha's Custom Altered (E) Precise Bane Fires
+#end
+
+#newspell 2731 -- Argatha's Ancient The Underworld Dragon
 #end
 
 #newitem 900 -- Jutonheim's No Drop Cursed Skull Talisman
+#end
+
+#newweapon 1000 -- Jutonheim's Vaetti Equalizer
+#end
+
+#newweapon 1001 -- Improved Ancient Guardian's Magic Fist
+#end
+
+#newweapon 1002 -- Improved Ancient Guardian's Magic Lightning
 #end
 
 -- [[COMMON SCRIPTS]]
@@ -85957,7 +85972,7 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #selectmonster 8000
   #copystats 768
   #copyspr 768
-  #name "Warden of Civilization"
+  #name "Ancient Guardian"
   #hp 500
   #prot 40
   #mr 40
@@ -85982,7 +85997,62 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
   #descr "The Pantokrator's wardens won't stand aside and watch should the city they've been charged with protecting come under attack. They serve as the model for the summon of the same name."
 #end
 
--- Warden of Civilization
+-- Improved Ancient Guardian's Magic Fist
+#selectweapon 1001
+  #name "Magic Lightning"
+  #dmg 0
+  #att 3
+  #range 40
+  #ammo 3
+  #sound 24
+  #magic
+  #armornegating
+  #secondaryeffectalways 704
+  #explspr 10219
+  #flyspr 210
+#end
+-- Improved Ancient Guardian's Magic Lightning
+#selectweapon 1002
+  #name "Magic Fist"
+  #dmg 0
+  #att -1
+  #def -1
+  #len -1
+  #sound 10
+  #magic
+  #armornegating
+#end
+-- Improved Ancient Guardian
+#selectmonster 8001
+  #copystats 768
+  #copyspr 768
+  #name "Supreme Ancient Guardian"
+  #hp 500
+  #prot 40
+  #mr 40
+  #str 40
+  #size 6
+  #clearweapons
+  #weapon 1001
+  #weapon 1001
+  #weapon 1002
+  #weapon 1002
+  #weapon 1002
+  #reinvigoration 6
+  #regeneration 10
+  #att 16
+  #def 16
+  #homesick 500
+  #shockres 6
+  #fireres 6
+  #poisonres 6
+  #coldres 6
+  #noleader
+  #nowish
+  #descr "The Pantokrator's wardens won't stand aside and watch should the city they've been charged with protecting come under attack. They serve as the model for the summon of the same name."
+#end
+
+-- Remove Ancient Guardian
 #newevent
   #rarity 5
   #nation -2
@@ -85990,6 +86060,18 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
   #req_pop0ok
   #req_monster 8000
   #killcom 8000
+  #msg "The blessings of the previous pantokrator have collapsed."
+  #nolog
+#end
+
+-- Remove Improved Ancient Guardian
+#newevent
+  #rarity 5
+  #nation -2
+  #req_turn 18
+  #req_pop0ok
+  #req_monster 8001
+  #killcom 8001
   #msg "The blessings of the previous pantokrator have collapsed."
   #nolog
 #end
@@ -86085,7 +86167,7 @@ end
 #end
 
 -- Brutish Giant Slayer Vaetti
-#selectweapon 1001
+#selectweapon 1000
   #name "Vaetti Equalizer"
   #dmg 3
   #nratt 1
@@ -86103,7 +86185,7 @@ end
   #str 15
   #mr 9
   #clearweapons
-  #weapon 1001
+  #weapon 1000
 #end
 
 -- Troubled Jotun Militia
@@ -86244,7 +86326,7 @@ end
   #okmagicleader
 #end
 
--- [[MA NAZCA BLOCK]]
+-- [[MA PYTHIUM BLOCK]]
 
 #selectnation 46
   #name "MA Pythium"
@@ -86671,41 +86753,6 @@ end
   #startsite "Ulm's Boon"
 #end
 
--- [[MA ARGATHA BLOCK]]
-
-#selectnation 54
-  #name "MA Argatha"
-  #era 1
-  #fortera 2
-  #epithet "Mechrite's"
-  #summary "Mechrite's Build"
-#end
-
--- Ancient Guardian
-#newevent
-  #rarity 5
-  #nation -2
-  #req_pregame
-  #req_fornation 54
-  #req_maxturn 3
-  #req_capital 1
-  #req_pop0ok
-  #req_nomonster 8000
-  #com 8000
-  #msg "The blessings of the previous pantokrator protect the centers of civilization."
-  #nolog
-#end
-
--- Bonus Magic Site
-#newsite
-  #name "Argatha's Boon"
-  #rarity 5
-  #path 8
-#end
-#selectnation 54
-  #startsite "Argatha's Boon"
-#end
-
 -- [[MA LEMUIRIA BLOCK]]
 
 #selectnation 82
@@ -86964,4 +87011,186 @@ end
 #end
 #selectnation 40
   #startsite "Therodos' Boon"
+#end
+
+-- [[MA ARGATHA BLOCK]]
+
+#selectnation 54
+  #name "MA Argatha"
+  #era 1
+  #fortera 2
+  #epithet "Mechrite's Fire and Stone"
+  #summary "Mechrite's Build"
+  #descr "Terraformed Provinces (Caves) Multi-Buff
+          Superior Proliferate Attentive Statues
+          Superior Puny Rhuax Pact
+          Custom Altered (E) Precise Bane Fires
+          Ancient The Underworld Dragon
+          Long Lived Master Diverse (FASN) Golem Crafter
+          Nation w/ Improved Protection
+          Advanced Mercantile Nation
+          Magic Fading (E) Deep Mine Bonus Magic Site
+          Tainted (+Fire/-Poison) Troglodyte Trainer
+          Tainted (+Fire/-Poison) Pale One Captain
+          Tainted (+Fire/-Poison) Agarthan Infantry
+          Tainted (+Fire/-Poison) Troglodyte Slave
+          Tainted (+Fire/-Poison) Pale One Soldier
+          Tainted (+Fire/-Poison) Defender of the Halls
+          Tainted (+Fire/-Shock) Wet One
+          Tainted (+Fire/-Shock) Agarthan Light Infantry
+          Tainted (+Fire/-Shock) Cave Captain
+          Tainted (+Fire/-Shock) Agarthan Heavy Infantry"
+#end
+
+-- Ancient Guardian
+-- Nation w/ Improved Protection
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pregame
+  #req_fornation 54
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 8001
+  #com 8001
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Magic Fading Deep Mine Bonus Magic Site
+#newsite
+  #name "Argatha's Boon"
+  #rarity 5
+  #path 8
+  #gems 3 4
+  #incscale 4
+  #incscale 5
+#end
+#selectnation 54
+  #startsite "Argatha's Boon"
+#end
+
+-- Superior Proliferate Attentive Statues
+#selectmonster 1497
+  #hp 15
+  #prot 24
+  #mr 14
+  #str 15
+  #att 14
+  #def 12
+  #prec 7
+  #ap 12
+#end
+#selectspell 472
+  #nreff 4
+  #fatiguecost 800
+  #researchlevel 2
+#end
+
+-- Superior Puny Rhuax Pact
+#selectmonster 640
+  #size 1
+  #hp 13
+  #prot 10
+  #mr 16
+  #str 11
+  #att 12
+  #def 9
+  #prec 12
+  #ap 12
+#end
+#selectspell 469
+  #researchlevel 4
+#end
+
+-- Custom Altered (E) Precise Bane Fires
+#selectspell 2730
+  #copyspell 564
+  #restricted 54
+  #precision 100
+  #path 0 3
+#end
+
+-- Ancient The Underworld Dragon
+#selectspell 2731
+  #researchlevel 7
+  #pathlevel 0 5
+#end
+
+-- Long Lived Master Diverse (FASN) Golem Crafter
+#selectmonster 1474
+  #maxage 200
+  #startage 22
+  #older 0
+  #addrandomage 0
+  #commaster
+  #custommagic 10624 50
+#end
+
+-- Advanced Mercantile Nation
+#selectnation 54
+  #fortera 3
+  #nationinc 15
+  #castleprod -10
+#end
+
+-- Tainted (+Fire/-Poison) Troglodyte Trainer
+#selectmonster 2483
+  #fireres 5
+  #poisonres -5
+#end
+
+-- Tainted (+Fire/-Poison) Pale One Captain
+#selectmonster 1471
+  #fireres 5
+  #poisonres -5
+#end
+
+-- Tainted (+Fire/-Poison) Agarthan Infantry
+#selectmonster 1355
+  #fireres 5
+  #poisonres -5
+#end
+
+-- Tainted (+Fire/-Poison) Troglodyte Slave
+#selectmonster 2482
+  #fireres 5
+  #poisonres -5
+#end
+
+-- Tainted (+Fire/-Poison) Pale One Soldier
+#selectmonster 1472
+  #fireres 5
+  #poisonres -5
+#end
+
+-- Tainted (+Fire/-Poison) Defender of the Halls
+#selectmonster 2507
+  #fireres 5
+  #poisonres -5
+#end
+
+-- Tainted (+Fire/-Shock) Wet One
+#selectmonster 1489
+  #fireres 5
+  #shockres -5
+#end
+
+-- Tainted (+Fire/-Shock) Agarthan Light Infantry
+#selectmonster 1447
+  #fireres 5
+  #shockres -5
+#end
+
+-- Tainted (+Fire/-Shock) Cave Captain
+#selectmonster 1445
+  #fireres 5
+  #shockres -5
+#end
+
+-- Tainted (+Fire/-Shock) Agarthan Heavy Infantry
+#selectmonster 1354
+  #fireres 5
+  #shockres -5
 #end
