@@ -87699,7 +87699,7 @@ end
           Custom Doubled Nether Darts
           Summoned Thug Lemur Consul
           Outstanding Lemur Consul
-          Infernal Lemur Consul
+          Monstrous Lemur Consul
           Omega (Throne of Creation) ???
           Omega (Throne of Death) ???
           Omega (Throne of Splendour) ???"
@@ -87793,10 +87793,10 @@ end
   #casttime 125
 #end
 
--- Infernal Lemur Consul
+-- Monstrous Lemur Consul
 #selectmonster 679
-  #demon
-  #flying
+  #prot 13
+  #poisonres -5
 #end
 
 -- Nation w/ Outstanding Lemur Consul
