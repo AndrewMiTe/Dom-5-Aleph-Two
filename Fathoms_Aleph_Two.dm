@@ -85921,6 +85921,12 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #newmonster 8006 -- Therodos' Better Statue of Wisdom
 #end
 
+#newmonster 8007 -- Lemuria' Summoned Thug Lemur Consul
+#end
+
+#newmonster 8008 -- Lemuria's Bishop Lemur Acolyte
+#end
+
 #newspell 2720 -- Caelum's Custom Elementary Dire Summon Lesser Air Elemental
 #end
 
@@ -85964,6 +85970,15 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #end
 
 #newspell 2734 -- Therodos' Custom Elementary Dark Knowledge
+#end
+
+#newspell 2735 -- Lemuria's Custom Holy Regeneration
+#end
+
+#newspell 2736 -- Lemuria's Custom Holy Unorthadox Primal Blast of Unlife
+#end
+
+#newspell 2737 -- Lemuria's Custom Doubled Nether Darts
 #end
 
 #newitem 900 -- Jutonheim's No Drop Cursed Skull Talisman
@@ -86947,40 +86962,6 @@ end
   #startsite "Ulm's Boon"
 #end
 
--- [[MA LEMUIRIA BLOCK]]
-
-#selectnation 82
-  #name "LA Lemuria"
-  #era 1
-  #epithet "Alany's"
-  #summary "Alany's Build"
-#end
-
--- Ancient Guardian
-#newevent
-  #rarity 5
-  #nation -2
-  #req_pregame
-  #req_fornation 82
-  #req_maxturn 3
-  #req_capital 1
-  #req_pop0ok
-  #req_nomonster 8000
-  #com 8000
-  #msg "The blessings of the previous pantokrator protect the centers of civilization."
-  #nolog
-#end
-
--- Bonus Magic Site
-#newsite
-  #name "Lemuria's Boon"
-  #rarity 5
-  #path 8
-#end
-#selectnation 56
-  #startsite "Lemuria's Boon"
-#end
-
 -- [[EA MARVERNI BLOCK]]
 
 #selectnation 8
@@ -87331,7 +87312,7 @@ end
   #name "MA Argatha"
   #era 1
   #fortera 2
-  #epithet "Mechrite's Fire and Stone"
+  #epithet "Mechrite's Fires and Stone"
   #summary "Mechrite's Build"
   #descr "Terraformed Provinces (Caves) Multi-Buff
           Superior Proliferate Attentive Statues
@@ -87505,4 +87486,139 @@ end
 #selectmonster 1354
   #fireres 5
   #shockres -5
+#end
+
+-- [[LA LEMURIA BLOCK]]
+
+#selectnation 82
+  #name "LA Lemuria"
+  #era 1
+  #epithet "Alany's Unlife is a Blast"
+  #summary "Alany's Build"
+  #descr "Radiant Mana Well Bonus Magic Site
+          Humble Nation 
+          Tireless Fearless Encompassing (D) Grand Lemur
+          Custom Holy Personal Regeneration
+          Custom Holy Unorthadox (Enchantment) Primal Blast of Unlife
+          Stolen Spell Quick Roots
+          Bishop Lemur Acolyte
+          Bishop Shadow Tribune
+          Custom Doubled Nether Darts
+          Summoned Thug Lemur Consul
+          Outstanding Lemur Consul
+          Infernal Lemur Consul
+          Omega (Throne of Creation) ???
+          Omega (Throne of Death) ???
+          Omega (Throne of Splendour) ???"
+#end
+
+-- Ancient Guardian
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pregame
+  #req_fornation 82
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #req_nomonster 8000
+  #com 8000
+  #msg "The blessings of the previous pantokrator protect the centers of civilization."
+  #nolog
+#end
+
+-- Radiant Mana Well Bonus Magic Site
+#newsite
+  #name "Lemuria's Boon"
+  #rarity 5
+  #path 8
+  #gems 5 3
+  #dominion 3
+#end
+#selectnation 82
+  #startsite "Lemuria's Boon"
+#end
+
+-- Humble Nation
+#selectnation 82
+  #templecost 400
+#end
+
+-- Tireless Fearless Encompassing Grand Lemur
+#selectmonster 2335
+  #reinvigoration 2
+  #mor 30
+  #inspirational 2
+  #deathrange 1
+#end
+
+-- Custom Holy Personal Regeneration
+#selectspell 2735
+  #copyspell 886
+  #restricted 82
+  #path 0 8
+  #pathlevel 0 3
+#end
+
+-- Custom Holy Unorthadox (Enchantment) Primal Blast of Unlife
+#selectspell 2736
+  #copyspell 563
+  #restricted 82
+  #path 0 8
+  #pathlevel 0 4
+  #school 4
+  #researchlevel 5
+#end
+
+-- Stolen Spell Quick Roots
+#selectspell 341
+  #restricted 82
+#end
+
+-- Bishop Lemur Acolyte
+#selectmonster 8008
+  #copystats 2333
+  #copyspr 2333
+  #magicskill 8 2
+#end
+#selectspell 310
+  #damage 8008
+#end
+
+-- Bishop Shadow Tribune
+#selectmonster 681
+  #magicskill 8 2
+#end
+
+-- Custom Doubled Nether Darts
+#selectspell 2737
+  #copyspell 574
+  #restricted 82
+  #name "Doubled Neither Darts"
+  #nreff 2028
+  #fatiguecost 30
+  #casttime 125
+#end
+
+-- Infernal Lemur Consul
+#selectmonster 679
+  #demon
+  #flying
+#end
+
+-- Nation w/ Outstanding Lemur Consul
+-- Summoned Thug Lemur Consul
+#selectmonster 8007
+  #copystats 679
+  #copyspr 679
+  #fixedname "No Idea"
+  #hp 58
+  #berserk 8
+#end
+#selectnation 82
+  #startcom 8007
+  #startunittype1 672
+  #startunitnbrs1 9
+  #startunittype2 673
+  #startunitnbrs2 9
 #end
