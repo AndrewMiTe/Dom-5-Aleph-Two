@@ -86851,7 +86851,7 @@ end
 #end
 #selectmonster 2688
   #hp 11
-  #str 8
+  #str 11
   #mr 1
   #clearweapons
   #weapon 1003
