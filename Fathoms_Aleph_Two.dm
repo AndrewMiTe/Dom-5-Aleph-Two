@@ -85981,6 +85981,9 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #newspell 2737 -- Lemuria's Custom Doubled Nether Darts
 #end
 
+#newspell 2738 -- Ulm's Custom Expansive Magma Eruption
+#end
+
 #newitem 900 -- Jutonheim's No Drop Cursed Skull Talisman
 #end
 
@@ -85991,6 +85994,12 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #end
 
 #newweapon 1002 -- Improved Ancient Guardian's Magic Lightning
+#end
+
+#newweapon 1003 -- Xibalba's Brutish Giant Killer Scorpion
+#end
+
+#newweapon 1004 -- Ulm's Giant Killer Black Plate Infantry (Morningstar)
 #end
 
 -- [[COMMON SCRIPTS]]
@@ -86933,8 +86942,17 @@ end
   #name "MA Ulm"
   #era 1
   #fortera 2
-  #epithet "Anwyl"
+  #epithet "Anwyl's Collossal Levitating Trick"
   #summary "Lucienne d'Anwyl's Build"
+  #descr "Levitating Thoughtful Recruit Multi-Buff
+          Giant Killer Black Plate Infantry (Morningstar)
+          Diverse (FAES) Master Smith
+          Industrial Nation
+          Magic Fading (E) Bonus Magic Site
+          Faster Stronger Harder Blacksteel Collossus
+          Difficult (111, River) 116
+          Overwhelming Iron Blizzard
+          Custom Expansive Magma Eruption"
 #end
 
 -- Ancient Guardian
@@ -86952,14 +86970,189 @@ end
   #nolog
 #end
 
--- Bonus Magic Site
+-- Magic Fading (E) Bonus Magic Site
 #newsite
   #name "Ulm's Boon"
   #rarity 5
   #path 8
+  #gems 3 4
+  #incscale 4
+  #incscale 5
 #end
 #selectnation 49
   #startsite "Ulm's Boon"
+#end
+
+-- Levitating Thoughtful Recruit Multi-Buff
+#selectmonster 66
+  #mr 10
+  #float
+#end
+#selectmonster 67
+  #mr 10
+  #float
+#end
+#selectmonster 68
+  #mr 10
+  #float
+#end
+#selectmonster 69
+  #mr 10
+  #float
+#end
+#selectmonster 70
+  #mr 10
+  #float
+#end
+#selectmonster 71
+  #mr 10
+  #float
+#end
+#selectmonster 72
+  #mr 10
+  #float
+#end
+#selectmonster 73
+  #mr 10
+  #float
+#end
+#selectmonster 74
+  #mr 10
+  #float
+#end
+#selectmonster 75
+  #mr 10
+  #float
+#end
+#selectmonster 76
+  #mr 10
+  #float
+#end
+#selectmonster 77
+  #mr 10
+  #float
+#end
+#selectmonster 78
+  #mr 10
+  #float
+#end
+#selectmonster 79
+  #mr 10
+  #float
+#end
+#selectmonster 80
+  #mr 10
+  #float
+#end
+#selectmonster 113
+  #mr 11
+  #float
+#end
+#selectmonster 114
+  #mr 10
+  #float
+#end
+#selectmonster 115
+  #mr 10
+  #float
+#end
+#selectmonster 116
+  #mr 10
+  #float
+#end
+#selectmonster 117
+  #mr 10
+  #float
+#end
+#selectmonster 325
+  #mr 15
+  #float
+#end
+#selectmonster 417
+  #mr 10
+  #float
+#end
+#selectmonster 748
+  #mr 10
+  #float
+#end
+#selectmonster 749
+  #mr 10
+  #float
+#end
+#selectmonster 1591
+  #mr 10
+  #float
+#end
+#selectmonster 1973
+  #float
+#end
+#selectmonster 1974
+  #float
+#end
+#selectmonster 1982
+  #float
+#end
+#selectmonster 2153
+  #mr 6
+  #float
+#end
+#selectmonster 5525
+  #mr 13
+  #float
+#end
+
+-- Giant Killer Black Plate Infantry (Morningstar)
+#selectweapon 1004
+  #copyweapon 15
+  #name "Gaint's Bane Morningstar"
+  #dt_large
+#end
+#selectmonster 78
+  #clearweapons
+  #weapon 1004
+#end
+
+-- Diverse (FAES) Master Smith
+#selectmonster 325
+  #custommagic 3456 50
+  #gcost 135
+#end
+
+-- Industrial Nation
+#selectnation 49
+  #nationinc -5
+  #castleprod 55
+#end
+
+-- Faster Stronger Harder Blacksteel Collossus
+#selectmonster 4980
+  #gcost 370
+  #hp 158
+  #awe 2
+  #prot 26
+  #att 16
+  #def 16
+  #ap 16
+  #mapmove 24
+  #fear 10
+  #siegebonus 200
+  #str 38
+  #regeneration 5
+#end
+
+-- Overwhelming Iron Blizzard
+#selectspell 355
+  #damage 14
+  #fatiguecost 70
+#end
+
+-- Custom Expansive Magma Eruption
+#selectspell 2738
+  #copyspell 559
+  #name "Expansive Magma Eruption"
+  #restricted 49
+  #aoe 1004
 #end
 
 -- [[EA MARVERNI BLOCK]]
