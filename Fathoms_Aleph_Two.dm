@@ -85918,6 +85918,9 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #newmonster 8005 -- Pythium's Summoned Prophet Rainbow Immortal Outstanding Solar Ram (The Lamb of God)
 #end
 
+#newmonster 8006 -- Therodos' Better Statue of Wisdom
+#end
+
 #newspell 2720 -- Caelum's Custom Elementary Dire Summon Lesser Air Elemental
 #end
 
@@ -85955,6 +85958,12 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #end
 
 #newspell 2732 -- Xibalba's Stolen Ancient Contact Boar of Carnutes
+#end
+
+#newspell 2733 -- Therodos' Custom Holy Precise Underwater Star Fires
+#end
+
+#newspell 2734 -- Therodos' Custom Elementary Dark Knowledge
 #end
 
 #newitem 900 -- Jutonheim's No Drop Cursed Skull Talisman
@@ -87169,8 +87178,17 @@ end
 #selectnation 40
   #name "EA Therodos"
   #era 1
-  #epithet "The Red Zaku's"
+  #epithet "The Red Zaku's Star Fires"
   #summary "The Red Zaku's Build"
+  #descr "Ancient Primal Elementary Rebuild Colossus
+          Custom Holy Precise Underwater Star Fires
+          Custom Elementary Dark Knowledge
+          Radiant Mana Well (D) Bonus Magic Site
+          Living Nation w/ Treasure Vault
+          Sealed & Forbidden Magic (45 E, 35 D, Skull Staff) Treasure Vault
+          Bishop Ephors
+          Fearless Diverse (AWEN) Bishop Melia
+          Better Statue of Wisdom"
 #end
 
 -- Ancient Guardian
@@ -87188,14 +87206,123 @@ end
   #nolog
 #end
 
--- Bonus Magic Site
+-- Radiant Mana Well (D) Bonus Magic Site
 #newsite
-  #name "Therodos' Boon"
+  #name "Spooky Dance Hall"
+  #rarity 5
+  #path 8
+  #gems 5 3
+  #dominion 3
+#end
+#selectnation 40
+  #startsite "Spooky Dance Hall"
+#end
+
+-- Ancient Primal Elementary Rebuild Colossus
+#selectspell "Rebuild Colossus"
+  #researchlevel 0
+  #pathlevel 0 5
+#end
+
+-- Custom Holy Precise Underwater Star Fires
+#selectspell 2733
+  #copyspell 503
+  #restricted 40
+  #precision 100
+  #path 0 8
+  #pathlevel 0 2
+  #spec 8388608
+#end
+
+-- Custom Elementary Dark Knowledge
+#selectspell 2734
+  #copyspell 740
+  #restricted 40
+  #researchlevel 0
+#end
+
+-- Living Nation w/ Treasure Vault
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 40
+  #req_pop0ok
+  #incpop 1
+  #notext
+  #nolog
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_fornation 40
+  #req_maxpop 100
+  #req_pop0ok
+  #incpop 24
+  #notext
+  #nolog
+#end
+
+-- Sealed & Forbidden Magic (45 E, 35 D, Skull Staff) Treasure Vault
+#newsite
+  #name "Therodos' Forbidden Vault"
+  #gems 3 45
+  #gems 5 35
   #rarity 5
   #path 8
 #end
 #selectnation 40
-  #startsite "Therodos' Boon"
+  #startsite "Therodos' Forbidden Vault"
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pregame
+  #req_fornation 40
+  #req_maxturn 3
+  #req_capital 1
+  #req_pop0ok
+  #exactgold 400
+  #magicitem 9
+  #msg "Magical items and gold from the forbidden vaults have been retrieved [Skull Staff]"
+#end
+#newevent
+  #rarity 5
+  #nation -2
+  #req_pop0ok
+  #req_site 1
+  #removesite -1
+  #msg "The vaults have been emptied and resealed. [Therodos' Forbidden Vault]"
+  #nolog
+#end
+
+-- Bishop Ephors
+#selectmonster 2845
+  #magicskill 8 2
+#end
+
+-- Fearless Diverse (AWEN) Bishop Melia
+#selectmonster 2833
+  #gcost 160
+  #magicskill 8 2
+  #custommagic 9984 50
+  #mor 30
+  #inspirational 2
+#end
+
+-- Better Statue of Wisdom
+#selectmonster 8006
+  #copystats 5015
+  #copyspr 5015
+  #name "Better Statue of Wisdom"
+  #homerealm 0
+  #gcost 230
+  #researchbonus 45
+  #magicboost 53 1
+  #allrange 2
+  #fastcast 25
+#end
+#selectnation 40
+  #addgod 8006
 #end
 
 -- [[MA ARGATHA BLOCK]]
