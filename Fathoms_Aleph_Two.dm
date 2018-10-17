@@ -87758,7 +87758,7 @@ end
   #copyspell 563
   #restricted 82
   #path 0 8
-  #pathlevel 0 4
+  #pathlevel 0 3
   #school 4
   #researchlevel 5
 #end
