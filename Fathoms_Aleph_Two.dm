@@ -85927,6 +85927,9 @@ A darkness has fallen across the land of ##landname## and fell creatures gather 
 #newmonster 8008 -- Lemuria's Bishop Lemur Acolyte
 #end
 
+#newmonster 8009 -- Argatha's Superior Puny Magma Babies
+#end
+
 #newspell 2720 -- Caelum's Custom Elementary Dire Summon Lesser Air Elemental
 #end
 
@@ -87555,6 +87558,7 @@ end
   #gems 3 4
   #incscale 4
   #incscale 5
+  #res 200
 #end
 #selectnation 54
   #startsite "Argatha's Boon"
@@ -87578,19 +87582,23 @@ end
 #end
 
 -- Superior Puny Rhuax Pact
-#selectmonster 640
+#selectmonster 8009
+  #copystats 640
+  #copyspr 640
+  #name "Magma Babies"
   #size 1
-  #hp 13
+  #hp 14
   #prot 10
   #mr 16
   #str 11
   #att 12
-  #def 9
+  #def 11
   #prec 12
   #ap 12
 #end
 #selectspell 469
   #researchlevel 4
+  #damage 8009
 #end
 
 -- Custom Altered (E) Precise Bane Fires
@@ -87603,6 +87611,8 @@ end
 
 -- Ancient The Underworld Dragon
 #selectspell 2731
+  #copyspell "The Underworld Dragon"
+  #restricted 54
   #researchlevel 7
   #pathlevel 0 5
 #end
@@ -87615,6 +87625,7 @@ end
   #addrandomage 0
   #commaster
   #custommagic 10624 50
+  #gcost 210
 #end
 
 -- Advanced Mercantile Nation
