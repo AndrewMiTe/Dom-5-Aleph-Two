@@ -86701,6 +86701,7 @@ end
   #name "The Wrath of the Lord"
   #restricted 46
   #precision 100
+  #sample "./Fathoms_Aleph_Two\Holy.sw"
 #end
 
 -- Custom Primal Astral Fires (Wide-Area Disintegration Beam)
@@ -86709,6 +86710,7 @@ end
   #name "Wide-Area Disintegration Beam"
   #restricted 46
   #researchlevel 5
+  #sample "./Fathoms_Aleph_Two\Holy.sw"
 #end
 
 -- Diverse (FEDN) Theurg
@@ -86744,6 +86746,7 @@ end
   #name "Wide-Area Disintegration Beam"
   #restricted 46
   #path 1 1
+  #sample "./Fathoms_Aleph_Two\Holy.sw"
 #end
 
 -- [[EA XIBALBA BLOCK]]
