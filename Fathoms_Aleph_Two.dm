@@ -87408,7 +87408,7 @@ end
   #precision 100
   #path 0 8
   #pathlevel 0 2
-  #spec 8388608
+  spec 8388736
 #end
 
 -- Custom Elementary Dark Knowledge
