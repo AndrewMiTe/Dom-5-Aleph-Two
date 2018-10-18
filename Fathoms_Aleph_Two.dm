@@ -87599,6 +87599,7 @@ end
 #selectspell 469
   #researchlevel 4
   #damage 8009
+  #nreff 7
 #end
 
 -- Custom Altered (E) Precise Bane Fires
