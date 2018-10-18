@@ -87686,6 +87686,7 @@ end
 #selectnation 82
   #name "LA Lemuria"
   #era 1
+  #uwnation
   #epithet "Alany's Unlife is a Blast"
   #summary "Alany's Build"
   #descr "Radiant Mana Well Bonus Magic Site
